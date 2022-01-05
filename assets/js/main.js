@@ -7,9 +7,9 @@ function start() {
     if (onlyOnce) {
         onlyOnce = false;
         if (clientsCounter && servicesCounter && doctorsCounter) {
-            animateValue(clientsCounter, 0, clientsCounter.innerText, 4000);
+            animateValue(clientsCounter, 0, clientsCounter.innerText, 3000);
             animateValue(servicesCounter, 0, servicesCounter.innerText, 3000);
-            animateValue(doctorsCounter, 0, doctorsCounter.innerText, 4000);
+            animateValue(doctorsCounter, 0, doctorsCounter.innerText, 3000);
         }
     }
 }
