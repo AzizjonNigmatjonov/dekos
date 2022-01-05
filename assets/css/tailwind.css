@@ -1453,6 +1453,26 @@ Ensure the default browser behavior of the `hidden` attribute.
   transform: var(--tw-transform);
 }
 
+.group:hover .group-hover\:rotate-\[-90deg\] {
+  --tw-rotate: -90deg;
+  transform: var(--tw-transform);
+}
+
+.group:hover .group-hover\:rotate-\[-180deg\] {
+  --tw-rotate: -180deg;
+  transform: var(--tw-transform);
+}
+
+.group:hover .group-hover\:rotate-\[-0deg\] {
+  --tw-rotate: -0deg;
+  transform: var(--tw-transform);
+}
+
+.group:hover .group-hover\:rotate-\[-45deg\] {
+  --tw-rotate: -45deg;
+  transform: var(--tw-transform);
+}
+
 .group:hover .group-hover\:scale-\[1\.1\] {
   --tw-scale-x: 1.1;
   --tw-scale-y: 1.1;
