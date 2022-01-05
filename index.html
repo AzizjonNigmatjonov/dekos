@@ -13,44 +13,48 @@
 <body>
     
     <div  id="header" uk-sticky="show-on-up: true; animation: uk-animation-slide-top; sel-target: .header; cls-active: uk-navbar-sticky bg-[#F9F9F9]; cls-inactive: uk-navbar-transparent z-[9]; top: 200;" class="navbar">
-        <header class="header absolute top-0 left-0 w-full z-10 bg-[#fff]" uk-scrollspy="target: .animateRight; cls: uk-animation-slide-left-small; delay: 300;">
+        <header class="header absolute top-0 left-0 w-full z-10 bg-[#fff]" uk-scrollspy="target: .animateRight; cls: uk-animation-slide-left-small; delay: 100;">
             
             <div class="uk-container uk-container-large">
                 <div class="nav-details py-[20px] border-b-2 border-[#EFEFEF]">
                     <div class="flex items-center justify-between">
                         <ul class="uk-grid-medium uk-flex-middle" uk-grid>
-                            <li class="text-[#111] uk-visible@l">
-                                <a href="#" class="flex items-center hover-link">
-                                    <img class="mr-[6px]" src="../assets/img/svg/nav-map.svg" alt="map">                                       
-                                    <p class="text-[#111]">
+                            <li class="text-[#DA0302] uk-visible@l">
+                                <a href="#" class="flex text-[#111] items-center hover-link duration-100">
+                                    <svg class="mr-[6px] stroke-current" width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.71753 6.33498V13.6325C1.71753 15.0575 2.73003 15.6425 3.96003 14.9375L5.72253 13.9325C6.10503 13.715 6.74253 13.6925 7.14003 13.895L11.0775 15.8675C11.475 16.0625 12.1125 16.0475 12.495 15.83L15.7425 13.97C16.155 13.73 16.5 13.145 16.5 12.665V5.36748C16.5 3.94248 15.4875 3.35748 14.2575 4.06248L12.495 5.06748C12.1125 5.28498 11.475 5.30748 11.0775 5.10498L7.14003 3.13998C6.74253 2.94498 6.10503 2.95998 5.72253 3.17748L2.47503 5.03748C2.05503 5.27748 1.71753 5.86248 1.71753 6.33498Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M6.41992 3.5V13.25" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M11.7976 5.46484V15.4998" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>                                                                        
+                                    <p>
                                         Tashkent, Mirabad district, Mirabad 41/4
                                     </p>
                                 </a>
                             </li>
-                            <li class="text-[#111]">
-                                <a href="#" class="flex items-center hover-link ml-[10px]">
-                                    <img class="mr-[6px]" src="../assets/img/svg/nav-call.svg" alt="call">                                       
+                            <li class="text-[#111] animateRight">
+                                <a href="#" class="flex items-center hover-link ml-[10px] group">
+                                    <img class="mr-[6px] group-hover:scale-[1.1] group-hover:rotate-[45deg] duration-200" src="../assets/img/svg/nav-call.svg" alt="call">                                       
                                     <p class="text-[#111] font-500">
                                         +998 78 129 00 66
                                     </p>
                                 </a>
                             </li>
-                            <li class="text-[#111] uk-visible@s">
-                                <a href="#" class="flex items-center hover-link">
-                                    <img class="mr-[6px]" src="../assets/img/svg/nav-call.svg" alt="call">                                       
+                            <li class="text-[#111] animateRight uk-visible@s">
+                                <a href="#" class="flex items-center hover-link ml-[10px] group">
+                                    <img class="mr-[6px] group-hover:scale-[1.1] group-hover:rotate-[45deg] duration-200" src="../assets/img/svg/nav-call.svg" alt="call">                                       
                                     <p class="text-[#111] font-500">
-                                        +998 78 129 00 66
+                                        +998 93 550 66 88
                                     </p>
                                 </a>
                             </li>
-                            <li class="text-[#111] uk-visible@m">
-                                <a href="#" class="flex items-center hover-link">
-                                    <img class="mr-[6px]" src="../assets/img/svg/nav-call.svg" alt="call">                                       
+                            <li class="text-[#111] animateRight uk-visible@m">
+                                <a href="#" class="flex items-center hover-link ml-[10px] group">
+                                    <img class="mr-[6px] group-hover:scale-[1.1] group-hover:rotate-[45deg] duration-200" src="../assets/img/svg/nav-call.svg" alt="call">                                       
                                     <p class="text-[#111] font-500">
-                                        +998 78 129 00 66
+                                        +998 90 900 49 38
                                     </p>
                                 </a>
-                            </li>
+                            </li>   
                             <li class="text-[#111] uk-visible@s">
                                 <a href="contact.html" class="py-[8px] px-[12px] hover-link text-[#111] font-600 bg-[#EFEFEF] animBtnTop ml-[10px]">
                                     Request a call
@@ -59,9 +63,9 @@
                         </ul>
                         <div class="uk-visible@s">
                             <ul>
-                                <li class="text-[#111]">
-                                    <a href="#" class="hover-link">                                   
-                                        <p class="text-[#111] font-500 uk-text-uppercase">
+                                <li class="text-[#DA0302]">
+                                    <a href="FAQ.html" class="hover-link text-[#111] duration-100">                                   
+                                        <p class="font-500 uk-text-uppercase">
                                             FAQ
                                         </p>
                                     </a>
@@ -78,7 +82,7 @@
                                 <ul>
                                     <li>
                                         <a href="index.html">
-                                            <img class="w-[100px] uk-animation-fade" src="../assets/img/logo/dekos.svg" alt="Logo">
+                                            <img class="w-[100px]" src="../assets/img/logo/dekos.svg" alt="Logo">
                                         </a>
                                     </li>
                                 </ul>
@@ -86,37 +90,132 @@
                             
                             <div class="uk-visible@m ml-[50px]">
                                 <ul class="uk-flex-middle uk-grid-medium" uk-grid>
-                                    <li class="text-[#111]">
-                                        <a href="about.html" class="text-lg font-500 text-[#111] hover-link">
+                                    <li class="text-[#DA0302] animateRight">
+                                        <a href="index.html" class="text-lg font-500 text-[#111] hover-link duration-100">
                                             Home
                                         </a>
                                     </li>
-                                    <li class="text-[#111] nav-item">
-                                        <a href="service.html" class="text-lg font-500 text-[#111] hover-link uk-flex uk-flex-middle">
+                                    <li class="text-[#DA0302] animateRight">
+                                        <a href="catalog.html" class="text-lg font-500 text-[#111] hover-link uk-flex uk-flex-middle duration-100">
                                             <span>Catalog</span>
                                             <svg class="stroke-current ml-[6px] mt-[3px]" width="10" height="5" viewBox="0 0 10 5" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M8.5 0.75L5 4.25L1.5 0.75" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                             </svg>
                                         </a>
                                         <div uk-dropdown="pos: bottom-left; animation: uk-animation-slide-top-small; duration: 200" style="padding: 20px 30px 30px 24px;">
-                                            <ul class="uk-nav uk-dropdown-nav">
-                                                <li class="uk-parent">
-                                                    <a href="./training.html" class="uk-flex uk-flex-middle uk-flex-between mt-[3px] text-lg 2xl:text-xl">
-                                                        Treninglar
-                                                        <img class="w-[16px] rotate-[-90deg]" src="../assets/img/svg/arrow-bottom.svg" alt="arrow">
+                                            <ul class="uk-nav uk-dropdown-nav uk-child-width-1-2 uk-child-width-1-3@l uk-flex-between" uk-grid>
+                                                <li class="uk-parent uk-padding-remove-left">
+                                                    <a href="#" class="uk-flex uk-flex-middle mt-[3px] text-lg 2xl:text-xl group">
+                                                        Unique solutions
+                                                        from Dekos
+                                                        <svg class="hidden group-hover:block stroke-current rotate-[-90deg] ml-[10px] duration-300" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M11.6199 5.22083L7.81655 9.02416C7.36738 9.47333 6.63238 9.47333 6.18322 9.02416L2.37988 5.22083" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        </svg>                                                            
+                                                    </a>
+                                                    <a href="#" class="uk-flex uk-flex-middle mt-[3px] text-lg 2xl:text-xl group">
+                                                        External
+                                                        batteries
+                                                        <svg class="hidden group-hover:block stroke-current rotate-[-90deg] ml-[10px] duration-300" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M11.6199 5.22083L7.81655 9.02416C7.36738 9.47333 6.63238 9.47333 6.18322 9.02416L2.37988 5.22083" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        </svg>                                                            
+                                                    </a>
+                                                    <a href="#" class="uk-flex uk-flex-middle mt-[3px] text-lg 2xl:text-xl group">
+                                                        Business
+                                                        gifts
+                                                        <svg class="hidden group-hover:block stroke-current rotate-[-90deg] ml-[10px] duration-300" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M11.6199 5.22083L7.81655 9.02416C7.36738 9.47333 6.63238 9.47333 6.18322 9.02416L2.37988 5.22083" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        </svg>                                                            
+                                                    </a>
+                                                    <a href="#" class="uk-flex uk-flex-middle mt-[3px] text-lg 2xl:text-xl group">
+                                                        Planning
+                                                        products
+                                                        <svg class="hidden group-hover:block stroke-current rotate-[-90deg] ml-[10px] duration-300" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M11.6199 5.22083L7.81655 9.02416C7.36738 9.47333 6.63238 9.47333 6.18322 9.02416L2.37988 5.22083" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        </svg>                                                            
+                                                    </a>
+                                                    <a href="#" class="uk-flex uk-flex-middle mt-[3px] text-lg 2xl:text-xl group">
+                                                        Award
+                                                        products
+                                                        <svg class="hidden group-hover:block stroke-current rotate-[-90deg] ml-[10px] duration-300" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M11.6199 5.22083L7.81655 9.02416C7.36738 9.47333 6.63238 9.47333 6.18322 9.02416L2.37988 5.22083" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        </svg>                                                            
                                                     </a>
                                                 </li>
-                                                <li class="uk-parent">
-                                                    <a href="cours.html" class="uk-flex uk-flex-middle uk-flex-between mt-[3px] text-lg 2xl:text-xl 2xl:mt-[10px]">
-                                                        Kurslar
-                                                        <img class="w-[16px] rotate-[-90deg]" src="../assets/img/svg/arrow-bottom.svg" alt="arrow">
+                                                <li class="uk-parent uk-padding-remove-left">
+                                                    <a href="#" class="uk-flex uk-flex-middle mt-[3px] text-lg 2xl:text-xl group">
+                                                        Own
+                                                        developments
+                                                        <svg class="hidden group-hover:block stroke-current rotate-[-90deg] ml-[10px] duration-300" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M11.6199 5.22083L7.81655 9.02416C7.36738 9.47333 6.63238 9.47333 6.18322 9.02416L2.37988 5.22083" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        </svg>                                                            
+                                                    </a>
+                                                    <a href="#" class="uk-flex uk-flex-middle mt-[3px] text-lg 2xl:text-xl group">
+                                                        Application
+                                                        services
+                                                        <svg class="hidden group-hover:block stroke-current rotate-[-90deg] ml-[10px] duration-300" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M11.6199 5.22083L7.81655 9.02416C7.36738 9.47333 6.63238 9.47333 6.18322 9.02416L2.37988 5.22083" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        </svg>                                                            
+                                                    </a>
+                                                    <a href="#" class="uk-flex uk-flex-middle mt-[3px] text-lg 2xl:text-xl group">
+                                                        Flash
+                                                        drives
+                                                        <svg class="hidden group-hover:block stroke-current rotate-[-90deg] ml-[10px] duration-300" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M11.6199 5.22083L7.81655 9.02416C7.36738 9.47333 6.63238 9.47333 6.18322 9.02416L2.37988 5.22083" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        </svg>                                                            
+                                                    </a>
+                                                    <a href="#" class="uk-flex uk-flex-middle mt-[3px] text-lg 2xl:text-xl group">
+                                                        Umbrella
+                                                        <svg class="hidden group-hover:block stroke-current rotate-[-90deg] ml-[10px] duration-300" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M11.6199 5.22083L7.81655 9.02416C7.36738 9.47333 6.63238 9.47333 6.18322 9.02416L2.37988 5.22083" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        </svg>                                                            
+                                                    </a>
+                                                    <a href="#" class="uk-flex uk-flex-middle mt-[3px] text-lg 2xl:text-xl group">
+                                                        Pens
+                                                        <svg class="hidden group-hover:block stroke-current rotate-[-90deg] ml-[10px] duration-300" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M11.6199 5.22083L7.81655 9.02416C7.36738 9.47333 6.63238 9.47333 6.18322 9.02416L2.37988 5.22083" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        </svg>                                                            
+                                                    </a>
+                                                </li>
+                                                <li class="uk-parent uk-padding-remove-left">
+                                                    <a href="selectedItem.html" class="uk-flex uk-flex-middle mt-[3px] text-lg 2xl:text-xl group">
+                                                        Promotional
+                                                        souvenirs
+                                                        <svg class="hidden group-hover:block stroke-current rotate-[-90deg] ml-[10px] duration-300" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M11.6199 5.22083L7.81655 9.02416C7.36738 9.47333 6.63238 9.47333 6.18322 9.02416L2.37988 5.22083" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        </svg>                                                            
+                                                    </a>
+                                                    <a href="#" class="uk-flex uk-flex-middle mt-[3px] text-lg 2xl:text-xl group">
+                                                        Office
+                                                        souvenirs
+                                                        <svg class="hidden group-hover:block stroke-current rotate-[-90deg] ml-[10px] duration-300" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M11.6199 5.22083L7.81655 9.02416C7.36738 9.47333 6.63238 9.47333 6.18322 9.02416L2.37988 5.22083" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        </svg>                                                            
+                                                    </a>
+                                                    <a href="#" class="uk-flex uk-flex-middle mt-[3px] text-lg 2xl:text-xl group">
+                                                        Bags and
+                                                        folders
+                                                        <svg class="hidden group-hover:block stroke-current rotate-[-90deg] ml-[10px] duration-300" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M11.6199 5.22083L7.81655 9.02416C7.36738 9.47333 6.63238 9.47333 6.18322 9.02416L2.37988 5.22083" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        </svg>                                                            
+                                                    </a>
+                                                    <a href="#" class="uk-flex uk-flex-middle mt-[3px] text-lg 2xl:text-xl group">
+                                                        Textile
+                                                        <svg class="hidden group-hover:block stroke-current rotate-[-90deg] ml-[10px] duration-300" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M11.6199 5.22083L7.81655 9.02416C7.36738 9.47333 6.63238 9.47333 6.18322 9.02416L2.37988 5.22083" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        </svg>                                                            
+                                                    </a>
+                                                    <a href="#" class="uk-flex uk-flex-middle mt-[3px] text-lg 2xl:text-xl group">
+                                                        Tableware
+                                                        <svg class="hidden group-hover:block stroke-current rotate-[-90deg] ml-[10px] duration-300" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M11.6199 5.22083L7.81655 9.02416C7.36738 9.47333 6.63238 9.47333 6.18322 9.02416L2.37988 5.22083" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        </svg>                                                            
                                                     </a>
                                                 </li>
                                             </ul>
                                         </div>
                                     </li>
-                                    <li class="text-[#111]">
-                                        <a href="FAQ.html" class="text-lg font-500 text-[#111] hover-link">
+                                    <li class="text-[#DA0302] animateRight">
+                                        <a href="contact.html" class="text-lg font-500 text-[#111] hover-link duration-100">
                                             Contacts
                                         </a>
                                     </li>
@@ -130,47 +229,40 @@
                             <div class="uk-visible@m">
                                 <div>
                                     <a href="#searchModal" uk-toggle>
-                                        <img class="uk-animation-fade w-[24px] h-[24px]" src="../assets/img/svg/nav-search.svg" alt="search">
+                                        <img class="w-[24px] h-[24px]" src="../assets/img/svg/nav-search.svg" alt="search">
                                     </a>
                                 </div>
                             </div>
                             
                             <div id="searchModal" uk-modal>
-                                <div class="uk-modal-dialog uk-modal-body md:p-[30px]" uk-scrollspy="target: .animateLeft; uk-animation-slide-left; delay: 200">
+                                <div class="uk-modal-dialog uk-modal-body md:p-[30px]">
                                     <div>
-                                        <div class="flex items-center bg-[#f8f8f8]">
+                                        <div class="flex items-center bg-[#EFEFEF]">
                                             <svg class="stroke-current ml-[15px]" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M11.5 21C16.7467 21 21 16.7467 21 11.5C21 6.25329 16.7467 2 11.5 2C6.25329 2 2 6.25329 2 11.5C2 16.7467 6.25329 21 11.5 21Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                                 <path d="M22 22L20 20" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                             </svg>                                                
-                                            <input class="pl-[10px] mr-[20px] py-[15px] w-full focus:outline-none bg-[#f8f8f8] text-[#1d1d1b]" placeholder="Search" type="text">
+                                            <input class="pl-[10px] mr-[20px] py-[15px] w-full focus:outline-none bg-[#EFEFEF] text-[#1d1d1b]" placeholder="Search" type="text">
                                         </div>
                                     </div>
-                                    <h3 class="text-[16px] mt-[30px] text-[#1d1d1b] font-400 uk-text-uppercase mb-[5px] text-sm" style="font-family: 'Gilroy';">Xizmatlarimiz</h3>
+                                    <h3 class="text-[16px] mt-[30px] text-[#111] font-600 uk-text-uppercase mb-[5px] text-sm" style="font-family: 'Gilroy';">Products</h3>
                                     <ul class="p-[10px] uk-grid-small uk-child-width-1-1" uk-grid>
-                                        <li class="uk-parent text-[#1d1d1b] animateLeft">
-                                            <a href="training.html" class="hover-link">
-                                                Treninglar
+                                        <li class="uk-parent text-[#111] animateLeft">
+                                            <a href="index.html" class="hover-link text-[#111] font-500">
+                                                Unique solutions
+                                                from Dekos
                                             </a>
                                         </li>
-                                        <li class="uk-parent text-[#1d1d1b] animateLeft">
-                                            <a href="cours.html" class="hover-link">
-                                                Kurslar
+                                        <li class="uk-parent text-[#111] animateLeft">
+                                            <a href="index.html" class="hover-link text-[#111] font-500">
+                                                External
+                                                batteries
                                             </a>
                                         </li>
-                                        <li class="uk-parent text-[#1d1d1b]">
-                                            <a href="add.html" class="hover-link">
-                                                Reklama xizmatlari
-                                            </a>
-                                        </li>
-                                        <li class="uk-parent text-[#1d1d1b]">
-                                            <a href="shows.html" class="hover-link">
-                                                Tijoriy ko‘rsatuvlar
-                                            </a>
-                                        </li>
-                                        <li class="uk-parent text-[#1d1d1b]">
-                                            <a href="events.html" class="hover-link">
-                                                Tadbirlar tashkillashtirish
+                                        <li class="uk-parent text-[#111] animateLeft">
+                                            <a href="index.html" class="hover-link text-[#111] font-500">
+                                                Business
+                                                gifts
                                             </a>
                                         </li>
                                     </ul>
@@ -179,23 +271,23 @@
                             
                             <div class="uk-visible@m">
                                 <div>
-                                    <a href="#" class="nav-link hover:text-[#111] hover:no-underline py-[12px] px-[18px] text-[#111] bg-[#EFEFEF] lang inline-flex font-500 items-center text-lg" uk-scrollspy="cls: uk-animation-slide-right; delay: 200;" style="animation-duration: .8s;">
+                                    <a href="#" class="nav-link hover:text-[#111] hover:no-underline py-[12px] px-[18px] text-[#111] bg-[#EFEFEF] focus:bg-[#DA0302] focus:text-[#fff] duration-200 lang inline-flex font-500 items-center text-lg group" style="animation-duration: .8s;">
                                         English
-                                        <svg class="ml-[6px]" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M11.6199 5.22083L7.81655 9.02416C7.36738 9.47333 6.63238 9.47333 6.18322 9.02416L2.37988 5.22083" stroke="#111111" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <svg class="ml-[6px] group-focus:rotate-[-180deg] duration-200 stroke-current" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M11.6199 5.22083L7.81655 9.02416C7.36738 9.47333 6.63238 9.47333 6.18322 9.02416L2.37988 5.22083" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                                         </svg>                                            
                                     </a>
                                     <div class="uk-padding-remove" style="min-width: 100px;" uk-dropdown="pos: bottom-justify;animation: uk-animation-slide-top-small; duration: 200; mode: click">
                                         
                                         <ul class="uk-grid uk-grid-small uk-flex-middle uk-flex-column uk-padding-small" uk-grid >
                                             <li class="uk-width-auto text-[#111]">
-                                                <a href="https://estetclinic.uz/ru" class="text-lg hover-link text-[#111] font-500">
-                                                    RU
+                                                <a href="javascript.void(0)" class="text-lg hover-link text-[#111] font-500">
+                                                    Russian
                                                 </a>
                                             </li>
                                             <li class="uk-width-auto text-[#111]">
-                                                <a href="https://estetclinic.uz/en" class="text-lg hover-link text-[#111] font-500">
-                                                    EN
+                                                <a href="javascript.void(0)" class="text-lg hover-link text-[#111] font-500">
+                                                    Uzbek
                                                 </a>
                                             </li>
                                         </ul>
@@ -231,56 +323,16 @@
                                         
                                         <ul class="mt-[20px] items-end uk-flex-column uk-grid-small uk-text-uppercase uk-child-width-1-1" uk-grid uk-scrollspy="target: .animBottom; cls: uk-animation-slide-top-small; delay: 100; repeat: true">
                                             <li class="uk-flex uk-flex-right">
-                                                <a href="service.html" class="font-400 animBottom">
-                                                    Xizmatlar
+                                                <a href="index.html" class="font-400 animBottom">
+                                                    Home
                                                 </a>
                                             </li>
                                             <div>
                                                 <hr class="border-none w-full h-[1px] bg-[#fff] bg-opacity-[0.06]">
                                             </div>
                                             <li class="uk-flex uk-flex-right">
-                                                <a href="about.html" class="font-400 animBottom">
-                                                    Biz haqimizda
-                                                </a>
-                                            </li>
-                                            <div>
-                                                <hr class="border-none w-full h-[1px] bg-[#fff] bg-opacity-[0.06]">
-                                            </div>
-                                            <li class="uk-flex uk-flex-right">
-                                                <a href="cours.html" class="font-400 animBottom">
-                                                    Kurslar
-                                                </a>
-                                            </li>
-                                            <div>
-                                                <hr class="border-none w-full h-[1px] bg-[#fff] bg-opacity-[0.06]">
-                                            </div>
-                                            <li class="uk-flex uk-flex-right">
-                                                <a href="training.html" class="font-400 animBottom">
-                                                    Treninglar
-                                                </a>
-                                            </li>
-                                            <div>
-                                                <hr class="border-none w-full h-[1px] bg-[#fff] bg-opacity-[0.06]">
-                                            </div>
-                                            <li class="uk-flex uk-flex-right">
-                                                <a href="shows.html" class="font-400 animBottom">
-                                                    Tijoriy ko‘rsatuvlar
-                                                </a>
-                                            </li>
-                                            <div>
-                                                <hr class="border-none w-full h-[1px] bg-[#fff] bg-opacity-[0.06]">
-                                            </div>
-                                            <li class="uk-flex uk-flex-right">
-                                                <a href="events.html" class="font-400 animBottom">
-                                                    Tadbirlar tashkillashtirish
-                                                </a>
-                                            </li>
-                                            <div>
-                                                <hr class="border-none w-full h-[1px] bg-[#fff] bg-opacity-[0.06]">
-                                            </div>
-                                            <li class="uk-flex uk-flex-right">
-                                                <a href="add.html" class="font-400 animBottom">
-                                                    Reklama xizmatlari
+                                                <a href="catalog.html" class="font-400 animBottom">
+                                                    Catalog
                                                 </a>
                                             </li>
                                             <div>
@@ -288,15 +340,7 @@
                                             </div>
                                             <li class="uk-flex uk-flex-right">
                                                 <a href="contact.html" class="font-400 animBottom">
-                                                    Kontakt
-                                                </a>
-                                            </li>
-                                            <div>
-                                                <hr class="border-none w-full h-[1px] bg-[#fff] bg-opacity-[0.06]">
-                                            </div>
-                                            <li class="uk-flex uk-flex-right">
-                                                <a href="FAQ.html" class="font-400 animBottom">
-                                                    FAQ
+                                                    Contacts
                                                 </a>
                                             </li>
                                             <div>
@@ -328,27 +372,26 @@
                         </div>
                     </div>
                     
-                    
                 </nav>
             </div>
             
         </header>
     </div>
     
-    <main class="main-section uk-section uk-position-relative uk-overflow-hidden uk-padding-remove-top z-[1] uk-background-bottom-center" uk-scrollspy="target: .animTop; cls: uk-animation-slide-top-medium; delay: 200; repeat: true">
+    <main class="main-section uk-section uk-position-relative uk-overflow-hidden z-[1] uk-background-bottom-center uk-padding-remove-bottom" uk-scrollspy="target: .animTop; cls: uk-animation-slide-top-medium; delay: 300; repeat: true">
         <div>
             <ul class="uk-padding-remove">
                 <li class="main-contents-wrapper uk-height-1-1 uk-cover-container h-[100vh]" style="min-height: 720px;">
                     <div class="left-1/2 top-1/2 absolute w-full -translate-y-1/2 uk-container uk-container-large -translate-x-1/2">
                         <div class="uk-container uk-container-large relative">
                             
-                            <div class="main-section-contents pt-[172px] uk-child-width-1-2@l uk-flex-middle" uk-grid>
+                            <div class="main-section-contents pt-[50px] md:pt-auto 2xl:pt-[102px] uk-child-width-1-2@l uk-flex-middle" uk-grid>
                                 <div>
-                                    <h1 class="font-gilroy font-500 text-[36px] sm:text-[48px] xl:text-[56px] 2xl:text-[72px] text-[#111]">
+                                    <h1 class="font-gilroy font-500 text-[36px] sm:text-[48px] xl:text-[56px] 2xl:text-[72px] text-[#111] animTop">
                                         We are in the
                                         field for <span class="text-[#DA0302]">14 years</span>
                                     </h1>
-                                    <p class="text-xl 2xl:text-2xl mt-[36px] font-500 text-[#111]">
+                                    <p class="text-xl 2xl:text-2xl mt-[36px] font-500 text-[#111] animTop">
                                         Since 2007, the company has specialized in supplying,
                                         production and development of promotional
                                         products and business gifts.
@@ -356,25 +399,25 @@
                                     <div class="pt-[42px]">
                                         <div class="uk-grid-medium uk-flex-middle" uk-grid>
                                             <div>
-                                                <a href="#" class="hover:text-[#fff] hover:no-underline py-[18px] px-[24px] inline-flex text-[#fff] bg-[#DA0302] font-500 items-center text-lg">
+                                                <a href="#" class="group hover:text-[#fff] hover:no-underline py-[16px] px-[24px] pr-[40px] inline-flex text-[#fff] bg-[#DA0302] font-500 items-center text-lg relative">
                                                     Catalog
-                                                    <svg class="ml-[6px]" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <svg class="mt-[1px] absolute right-[15px] group-hover:right-[11px] duration-100 top-1/2 translate-y-[-50%]" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                         <path d="M10.8225 4.44751L15.375 9.00001L10.8225 13.5525" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                                                         <path d="M2.625 9H15.2475" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                                                     </svg>                                                                              
                                                 </a>
                                             </div>
                                             <div>
-                                                <a href="#" class="hover:text-[#111] hover:no-underline py-[18px] px-[24px] inline-flex text-[#111] bg-[#EFEFEF] font-500 items-center text-lg">
+                                                <a href="#" class="animBtnTop hover:text-[#111] hover:no-underline py-[16px] px-[24px] inline-flex text-[#111] bg-[#EFEFEF] font-500 items-center text-lg">
                                                     Contact us                                                                          
                                                 </a>
                                             </div>
                                         </div>
                                     </div>
                                     
-                                    <div class="main-content-info-digitals mt-[200px] 2xl:mt-[240px] uk-grid-medium uk-flex-wrap" uk-grid>
+                                    <div class="main-content-info-digitals mt-[200px] 2xl:mt-[180px] uk-grid-medium uk-flex-wrap" uk-grid>
                                         <div class="flex flex-col">
-                                            <p class="font-500 text-[30px] text-[#111]">
+                                            <p id="clientCount" class="font-500 text-[30px] text-[#111]">
                                                 120
                                             </p>
                                             <p class="text-lg text-[#111]">
@@ -392,7 +435,7 @@
                                             </div>                                               
                                         </div>
                                         <div class="flex flex-col">
-                                            <p class="font-500 text-[30px] text-[#111]">
+                                            <p id="serviceCount" class="font-500 text-[30px] text-[#111]">
                                                 520
                                             </p>
                                             <p class="text-lg text-[#111]">
@@ -410,9 +453,12 @@
                                             </div>                                               
                                         </div>
                                         <div class="flex flex-col">
-                                            <p class="font-500 text-[30px] text-[#111]">
-                                                14+
-                                            </p>
+                                            <div class="font-500 text-[30px] text-[#111] flex items-center">
+                                                <p id="doctorCount">
+                                                    14
+                                                </p>
+                                                <span>+</span>
+                                            </div>
                                             <p class="text-lg text-[#111]">
                                                 Years
                                             </p>
@@ -425,26 +471,26 @@
                                         <div class="">        
                                             <div class="uk-position-relative uk-visible-toggle" tabindex="-1" uk-slideshow="animation: fade">
                                                 
-                                                <ul class="uk-slideshow-items h-[810px]">
+                                                <ul class="uk-slideshow-items h-[810px] uk-animation-fade">
                                                     <li>
                                                         <div>
                                                             <div class="flex flex-col">
                                                                 <div class="bg-[#FAFAFA] border-[10px] border-[#F4F4F4]">
-                                                                    <img class="w-full h-[585px]" src="../assets/img/main/main-img.png" alt="img">
+                                                                    <img class="w-full h-[585px] object-cover" loading="lazy" src="../assets/img/main/main-img.png" alt="img">
                                                                 </div>
                                                                 <div class="bg-[#F4F4F4] p-[36px] h-[130px]">
-                                                                    <div class="uk-flex-between" uk-grid>
-                                                                        <div class="flex flex-col w-[180px]">
-                                                                            <h3 class="text-[#111] text-xl font-600 font-gilroy">Name</h3>
-                                                                            <p class="text-[#111] text-lg">Unique solution yaho sa saa</p>
+                                                                    <div class="flex uk-flex-between flex-wrap">
+                                                                        <div class="flex flex-col w-[160px]">
+                                                                            <h3 class="text-[#111] text-base sm:text-lg md:text-xl font-600 font-gilroy">Name</h3>
+                                                                            <p class="text-[#111] text-sm md:text-lg">Unique solution</p>
                                                                         </div>
-                                                                        <div class="flex flex-col w-[150px]">
-                                                                            <h3 class="text-[#111] text-xl font-600 font-gilroy">Min order</h3>
-                                                                            <p class="text-[#111] text-lg">10 pieces</p>
+                                                                        <div class="flex flex-col w-[120px]">
+                                                                            <h3 class="text-[#111] text-sm md:text-base sm:text-lg md:text-xl font-600 font-gilroy">Min order</h3>
+                                                                            <p class="text-[#111] text-sm md:text-lg">10 pieces</p>
                                                                         </div>
-                                                                        <div class="flex flex-col w-[150px]">
-                                                                            <h3 class="text-[#111] text-xl font-600 font-gilroy">Price</h3>
-                                                                            <p class="text-[#111] text-lg">222,125,992,000 sums</p>
+                                                                        <div class="flex flex-col w-[160px]">
+                                                                            <h3 class="text-[#111] text-base sm:text-lg md:text-xl font-600 font-gilroy">Price</h3>
+                                                                            <p class="text-[#111] text-sm md:text-lg">599,000 sums</p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -455,21 +501,21 @@
                                                         <div>
                                                             <div class="flex flex-col">
                                                                 <div class="bg-[#FAFAFA] border-[10px] border-[#F4F4F4]">
-                                                                    <img class="w-full h-[585px]" src="../assets/img/partners/image 7.png" alt="img">
+                                                                    <img class="w-full h-[585px] object-cover" loading="lazy" src="../assets/img/main/categories/application-services.png" alt="img">
                                                                 </div>
-                                                                <div class="bg-[#F4F4F4] p-[36px]">
-                                                                    <div class="uk-flex-between" uk-grid>
-                                                                        <div class="flex flex-col">
-                                                                            <h3 class="text-[#111] text-xl font-600 font-gilroy">Name</h3>
-                                                                            <p class="text-[#111] text-lg">Unique dwad</p>
+                                                                <div class="bg-[#F4F4F4] p-[36px] h-[130px]">
+                                                                    <div class="flex uk-flex-between flex-wrap">
+                                                                        <div class="flex flex-col w-[160px]">
+                                                                            <h3 class="text-[#111] text-base sm:text-lg md:text-xl font-600 font-gilroy">Name</h3>
+                                                                            <p class="text-[#111] text-sm md:text-lg">Unique solution</p>
                                                                         </div>
-                                                                        <div class="flex flex-col">
-                                                                            <h3 class="text-[#111] text-xl font-600 font-gilroy">Min order</h3>
-                                                                            <p class="text-[#111] text-lg">10 pieces</p>
+                                                                        <div class="flex flex-col w-[120px]">
+                                                                            <h3 class="text-[#111] text-sm md:text-base sm:text-lg md:text-xl font-600 font-gilroy">Min order</h3>
+                                                                            <p class="text-[#111] text-sm md:text-lg">10 pieces</p>
                                                                         </div>
-                                                                        <div class="flex flex-col">
-                                                                            <h3 class="text-[#111] text-xl font-600 font-gilroy">Price</h3>
-                                                                            <p class="text-[#111] text-lg">599,000 sums</p>
+                                                                        <div class="flex flex-col w-[160px]">
+                                                                            <h3 class="text-[#111] text-base sm:text-lg md:text-xl font-600 font-gilroy">Price</h3>
+                                                                            <p class="text-[#111] text-sm md:text-lg">599,000 sums</p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -490,84 +536,13 @@
                                                         <path d="M3.5 12H20.33" stroke="#111111" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                                                     </svg>  
                                                 </a>
-
+                                                
                                                 <div class="main-slider-bottom-modal-opener text-[#DA0302]">
                                                     <a href="#" class="main-slider-bottom-modal-opener-link hover-link text-[#DA0302] text-lg font-500 relative">
                                                         Make order
                                                     </a>
                                                 </div>
                                                 
-                                            </div>
-                                            
-                                        </div>
-                                        <div class="uk-position-relative uk-visible-toggle uk-hidden" tabindex="-1" uk-slider="center: true; finite: true; animation: fade">
-                                            
-                                            <ul class="uk-slider-items uk-grid uk-grid-match" uk-height-viewport="offset-top: true; offset-bottom: 30">
-                                                <li class="uk-width-1-1">
-                                                    <div class="flex flex-col">
-                                                        <div class="bg-[#FAFAFA] border-[10px] border-[#F4F4F4]">
-                                                            <img src="../assets/img/main/main-img.png" alt="img">
-                                                        </div>
-                                                        <div class="bg-[#F4F4F4] p-[36px]">
-                                                            <div class="uk-flex-between" uk-grid>
-                                                                <div class="flex flex-col">
-                                                                    <h3 class="text-[#111] text-xl font-600 font-gilroy">Name</h3>
-                                                                    <p class="text-[#111] text-lg">Unique solution</p>
-                                                                </div>
-                                                                <div class="flex flex-col">
-                                                                    <h3 class="text-[#111] text-xl font-600 font-gilroy">Min order</h3>
-                                                                    <p class="text-[#111] text-lg">10 pieces</p>
-                                                                </div>
-                                                                <div class="flex flex-col">
-                                                                    <h3 class="text-[#111] text-xl font-600 font-gilroy">Price</h3>
-                                                                    <p class="text-[#111] text-lg">599,000 sums</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li class="uk-width-1-1">
-                                                    <div class="flex flex-col">
-                                                        <div class="bg-[#FAFAFA] border-[10px] border-[#F4F4F4]">
-                                                            <img src="../assets/img/main/main-img.png" alt="img">
-                                                        </div>
-                                                        <div class="bg-[#F4F4F4] p-[36px]">
-                                                            <div class="uk-flex-between" uk-grid>
-                                                                <div class="flex flex-col">
-                                                                    <h3 class="text-[#111] text-xl font-600 font-gilroy">Name</h3>
-                                                                    <p class="text-[#111] text-lg">Unique solution</p>
-                                                                </div>
-                                                                <div class="flex flex-col">
-                                                                    <h3 class="text-[#111] text-xl font-600 font-gilroy">Min order</h3>
-                                                                    <p class="text-[#111] text-lg">10 pieces</p>
-                                                                </div>
-                                                                <div class="flex flex-col">
-                                                                    <h3 class="text-[#111] text-xl font-600 font-gilroy">Price</h3>
-                                                                    <p class="text-[#111] text-lg">599,000 sums</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                            
-                                            <a class="uk-position-center-left uk-position-small main-slider-arrow-left" href="#" uk-slidenav-previous uk-slider-item="previous">
-                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M9.57 5.93005L3.5 12.0001L9.57 18.0701" stroke="#111111" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                                    <path d="M20.5002 12H3.67017" stroke="#111111" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                                </svg>                                                    
-                                            </a>
-                                            <a class="uk-position-center-right uk-position-small main-slider-arrow-right" href="#" uk-slidenav-next uk-slider-item="next">
-                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M14.4299 5.93005L20.4999 12.0001L14.4299 18.0701" stroke="#111111" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                                    <path d="M3.5 12H20.33" stroke="#111111" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                                </svg>                                                    
-                                            </a>
-                                            
-                                            <div class="main-slider-bottom-modal-opener">
-                                                <a href="#" class="main-slider-bottom-modal-opener-link text-[#DA0302] text-lg font-500 relative">
-                                                    Make order
-                                                </a>
                                             </div>
                                             
                                         </div>
@@ -584,34 +559,34 @@
         </div>
         
     </main>
-
-    <section class="additional-section-main uk-section">
+    
+    <section class="additional-section-main uk-section uk-hidden@l uk-padding-remove-vertical">
         <div class="uk-container">
-            <div class="flex justify-center uk-hidden@l">
+            <div class="flex justify-center">
                 <div class="w-full md:w-[585px]">
-                    <div class="">        
+                    <div>        
                         <div class="uk-position-relative uk-visible-toggle" tabindex="-1" uk-slideshow="animation: fade">
                             
                             <ul class="uk-slideshow-items h-[810px] additional-section-main-list">
                                 <li>
                                     <div>
                                         <div class="flex flex-col">
-                                            <div class="bg-[#FAFAFA] border-[10px] border-[#F4F4F4] flex justify-center">
-                                                <img class="w-auto h-[585px]" src="../assets/img/main/main-img.png" alt="img">
+                                            <div class="bg-[#FAFAFA] border-[10px] border-[#F4F4F4]">
+                                                <img class="w-full h-[585px] object-cover" loading="lazy" src="../assets/img/main/main-img.png" alt="img">
                                             </div>
-                                            <div class="bg-[#F4F4F4] p-[36px] sm:h-[130px]">
-                                                <div class="uk-flex-between" uk-grid>
-                                                    <div class="flex flex-col sm:w-[180px]">
-                                                        <h3 class="text-[#111] text-xl font-600 font-gilroy">Name</h3>
-                                                        <p class="text-[#111] text-lg">Unique solution yaho sa saa</p>
+                                            <div class="bg-[#F4F4F4] p-[10px] md:p-[20px]">
+                                                <div class="flex uk-flex-between flex-wrap">
+                                                    <div class="flex flex-col w-[]">
+                                                        <h3 class="text-[#111] text-base sm:text-lg md:text-xl font-600 font-gilroy">Name</h3>
+                                                        <p class="text-[#111] text-sm md:text-lg">Unique solution</p>
                                                     </div>
-                                                    <div class="flex flex-col sm:w-[150px]">
-                                                        <h3 class="text-[#111] text-xl font-600 font-gilroy">Min order</h3>
-                                                        <p class="text-[#111] text-lg">10 pieces</p>
+                                                    <div class="flex flex-col w-[]">
+                                                        <h3 class="text-[#111] text-sm md:text-base sm:text-lg md:text-xl font-600 font-gilroy">Min order</h3>
+                                                        <p class="text-[#111] text-sm md:text-lg">10 pieces</p>
                                                     </div>
-                                                    <div class="flex flex-col sm:w-[150px]">
-                                                        <h3 class="text-[#111] text-xl font-600 font-gilroy">Price</h3>
-                                                        <p class="text-[#111] text-lg">222,125,992,000 sums</p>
+                                                    <div class="flex flex-col w-[]">
+                                                        <h3 class="text-[#111] text-base sm:text-lg md:text-xl font-600 font-gilroy">Price</h3>
+                                                        <p class="text-[#111] text-sm md:text-lg">599,000 sums</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -621,22 +596,22 @@
                                 <li>
                                     <div>
                                         <div class="flex flex-col">
-                                            <div class="bg-[#FAFAFA] border-[10px] border-[#F4F4F4] flex justify-center">
-                                                <img class="w-auto h-[585px]" src="../assets/img/partners/image 7.png" alt="img">
+                                            <div class="bg-[#FAFAFA] border-[10px] border-[#F4F4F4]">
+                                                <img class="w-full h-[585px] object-cover" loading="lazy" src="../assets/img/main/categories/application-services.png" alt="img">
                                             </div>
-                                            <div class="bg-[#F4F4F4] p-[36px] sm:h-[130px]">
-                                                <div class="uk-flex-between" uk-grid>
-                                                    <div class="flex flex-col sm:w-[180px]">
-                                                        <h3 class="text-[#111] text-xl font-600 font-gilroy">Name</h3>
-                                                        <p class="text-[#111] text-lg">Unique solution yaho sa saa</p>
+                                            <div class="bg-[#F4F4F4] p-[10px] md:p-[20px]">
+                                                <div class="flex uk-flex-between flex-wrap">
+                                                    <div class="flex flex-col w-[]">
+                                                        <h3 class="text-[#111] text-base sm:text-lg md:text-xl font-600 font-gilroy">Name</h3>
+                                                        <p class="text-[#111] text-sm md:text-lg">Unique solution</p>
                                                     </div>
-                                                    <div class="flex flex-col sm:w-[150px]">
-                                                        <h3 class="text-[#111] text-xl font-600 font-gilroy">Min order</h3>
-                                                        <p class="text-[#111] text-lg">10 pieces</p>
+                                                    <div class="flex flex-col w-[]">
+                                                        <h3 class="text-[#111] text-sm md:text-base sm:text-lg md:text-xl font-600 font-gilroy">Min order</h3>
+                                                        <p class="text-[#111] text-sm md:text-lg">10 pieces</p>
                                                     </div>
-                                                    <div class="flex flex-col sm:w-[150px]">
-                                                        <h3 class="text-[#111] text-xl font-600 font-gilroy">Price</h3>
-                                                        <p class="text-[#111] text-lg">222,125,992,000 sums</p>
+                                                    <div class="flex flex-col w-[]">
+                                                        <h3 class="text-[#111] text-base sm:text-lg md:text-xl font-600 font-gilroy">Price</h3>
+                                                        <p class="text-[#111] text-sm md:text-lg">599,000 sums</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -645,21 +620,21 @@
                                 </li>
                             </ul>
                             
-                            <a class="main-slider-arrow-left uk-position-center-left uk-position-small" href="#" uk-slidenav-previous uk-slideshow-item="previous">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M9.57 5.93005L3.5 12.0001L9.57 18.0701" stroke="#111111" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M20.5002 12H3.67017" stroke="#111111" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                            <a class="main-slider-arrow-left uk-position-center-left uk-position-small group" href="#" uk-slidenav-previous uk-slideshow-item="previous">
+                                <svg class="stroke-[#111] group-hover:stroke-[#DA0302] duration-100" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.57 5.93005L3.5 12.0001L9.57 18.0701" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M20.5002 12H3.67017" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>  
                             </a>
-                            <a class="main-slider-arrow-right uk-position-center-right uk-position-small" href="#" uk-slidenav-next uk-slideshow-item="next">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M14.4299 5.93005L20.4999 12.0001L14.4299 18.0701" stroke="#111111" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M3.5 12H20.33" stroke="#111111" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                            <a class="main-slider-arrow-right uk-position-center-right uk-position-small group" href="#" uk-slidenav-next uk-slideshow-item="next">
+                                <svg class="stroke-[#111] group-hover:stroke-[#DA0302] duration-100" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M14.4299 5.93005L20.4999 12.0001L14.4299 18.0701" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M3.5 12H20.33" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>  
                             </a>
-
+                            
                             <div class="main-slider-bottom-modal-opener text-[#DA0302]">
-                                <a href="#" class="main-slider-bottom-modal-opener-link hover-link text-[#DA0302] text-lg font-500 relative">
+                                <a href="#" class="main-slider-bottom-modal-opener-link hover-link text-[#DA0302] text-lg font-500 relative hover:scale-[1.05] duration-100">
                                     Make order
                                 </a>
                             </div>
@@ -743,59 +718,59 @@
         </div>
     </section>
     
-    <section class="uk-section clients-section uk-overflow-hidden">
+    <section class="uk-section clients-section uk-overflow-hidden uk-margin-large-top">
         <div>
             <div class="uk-container uk-container-large">
-                <h2 class="heading text-[#111] font-500">Our clients</h2>
+                <h2 class="heading text-[#111] font-500" uk-scrollspy="cls: uk-animation-slide-top-medium; delay: 300; repeat: true">Our clients</h2>
             </div>
-            <div class="uk-slider-container-offset" uk-slider="clsActivated: uk-transition-active; center: true;">
+            <div class="uk-slider-container-offset" uk-slider="clsActivated: uk-transition-active; center: true;autoplay: true">
                 <div class="uk-position-relative uk-visible-toggle" tabindex="-1">
-                
+                    
                     <ul class="uk-slider-items uk-grid">
                         <li class="uk-width-1-1">
                             <div class="uk-container uk-container-large">
                                 <ul class="clients-list">
                                     <li>
-                                        <img src="../assets/img/partners/image 7.png" alt="client">
+                                        <img src="../assets/img/partners/image 7.png" loading="lazy" alt="partner">
                                     </li>
                                     <li>
-                                        <img src="../assets/img/partners/image 7.png" alt="">
+                                        <img src="../assets/img/partners/hyundai.png" loading="lazy" alt="partner">
                                     </li>
                                     <li>
-                                        <img src="../assets/img/partners/image 7.png" alt="">
+                                        <img src="../assets/img/partners/chevrolet.png" loading="lazy" alt="partner">
                                     </li>
                                     <li>
-                                        <img src="../assets/img/partners/image 7.png" alt="">
+                                        <img src="../assets/img/partners/gm.png" loading="lazy" alt="partner">
                                     </li>
                                     <li>
-                                        <img src="../assets/img/partners/image 7.png" alt="">
+                                        <img src="../assets/img/partners/samsung.png" loading="lazy" alt="partner">
                                     </li>
                                     <li>
-                                        <img src="../assets/img/partners/image 7.png" alt="">
+                                        <img src="../assets/img/partners/uzbekistan.png" loading="lazy" alt="partner">
                                     </li>
                                     <li>
-                                        <img src="../assets/img/partners/image 7.png" alt="">
+                                        <img src="../assets/img/partners/tabaco.png" loading="lazy" alt="partner">
                                     </li>
                                     <li>
-                                        <img src="../assets/img/partners/image 7.png" alt="">
+                                        <img src="../assets/img/partners/dena.png" loading="lazy" alt="partner">
                                     </li>
                                     <li>
-                                        <img src="../assets/img/partners/image 7.png" alt="">
+                                        <img src="../assets/img/partners/kapitalbank.png" loading="lazy" alt="partner">
                                     </li>
                                     <li>
-                                        <img src="../assets/img/partners/image 7.png" alt="">
+                                        <img src="../assets/img/partners/epson.png" loading="lazy" alt="partner">
                                     </li>
                                     <li>
-                                        <img src="../assets/img/partners/image 7.png" alt="">
+                                        <img src="../assets/img/partners/roison.png" loading="lazy" alt="partner">
                                     </li>
                                     <li>
-                                        <img src="../assets/img/partners/image 7.png" alt="">
+                                        <img src="../assets/img/partners/nescafde.png" loading="lazy" alt="partner">
                                     </li>
                                     <li>
-                                        <img src="../assets/img/partners/image 7.png" alt="">
+                                        <img src="../assets/img/partners/unicef.png" loading="lazy" alt="partner">
                                     </li>
                                     <li>
-                                        <img src="../assets/img/partners/image 7.png" alt="" >
+                                        <img src="../assets/img/partners/netle.png" loading="lazy" alt="partner">
                                     </li>
                                 </ul>
                             </div>
@@ -804,62 +779,204 @@
                             <div class="uk-container uk-container-large">
                                 <ul class="clients-list">
                                     <li>
-                                        <img src="../assets/img/partners/image 7.png" alt="">
+                                        <img src="../assets/img/partners/image 7.png" loading="lazy" alt="partner">
                                     </li>
                                     <li>
-                                        <img src="../assets/img/partners/image 7.png" alt="">
+                                        <img src="../assets/img/partners/hyundai.png" loading="lazy" alt="partner">
                                     </li>
                                     <li>
-                                        <img src="../assets/img/partners/image 7.png" alt="">
+                                        <img src="../assets/img/partners/chevrolet.png" loading="lazy" alt="partner">
                                     </li>
                                     <li>
-                                        <img src="../assets/img/partners/image 7.png" alt="">
+                                        <img src="../assets/img/partners/gm.png" loading="lazy" alt="partner">
                                     </li>
                                     <li>
-                                        <img src="../assets/img/partners/image 7.png" alt="">
+                                        <img src="../assets/img/partners/samsung.png" loading="lazy" alt="partner">
                                     </li>
                                     <li>
-                                        <img src="../assets/img/partners/image 7.png" alt="">
+                                        <img src="../assets/img/partners/uzbekistan.png" loading="lazy" alt="partner">
                                     </li>
                                     <li>
-                                        <img src="../assets/img/partners/image 7.png" alt="">
+                                        <img src="../assets/img/partners/tabaco.png" loading="lazy" alt="partner">
                                     </li>
                                     <li>
-                                        <img src="../assets/img/partners/image 7.png" alt="">
+                                        <img src="../assets/img/partners/dena.png" loading="lazy" alt="partner">
                                     </li>
                                     <li>
-                                        <img src="../assets/img/partners/image 7.png" alt="">
+                                        <img src="../assets/img/partners/kapitalbank.png" loading="lazy" alt="partner">
                                     </li>
                                     <li>
-                                        <img src="../assets/img/partners/image 7.png" alt="">
+                                        <img src="../assets/img/partners/epson.png" loading="lazy" alt="partner">
                                     </li>
                                     <li>
-                                        <img src="../assets/img/partners/image 7.png" alt="">
+                                        <img src="../assets/img/partners/roison.png" loading="lazy" alt="partner">
                                     </li>
                                     <li>
-                                        <img src="../assets/img/partners/image 7.png" alt="">
+                                        <img src="../assets/img/partners/nescafde.png" loading="lazy" alt="partner">
                                     </li>
                                     <li>
-                                        <img src="../assets/img/partners/image 7.png" alt="">
+                                        <img src="../assets/img/partners/unicef.png" loading="lazy" alt="partner">
                                     </li>
                                     <li>
-                                        <img src="../assets/img/partners/image 7.png" alt="" >
+                                        <img src="../assets/img/partners/netle.png" loading="lazy" alt="partner">
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="uk-width-1-1">
+                            <div class="uk-container uk-container-large">
+                                <ul class="clients-list">
+                                    <li>
+                                        <img src="../assets/img/partners/image 7.png" loading="lazy" alt="partner">
+                                    </li>
+                                    <li>
+                                        <img src="../assets/img/partners/hyundai.png" loading="lazy" alt="partner">
+                                    </li>
+                                    <li>
+                                        <img src="../assets/img/partners/chevrolet.png" loading="lazy" alt="partner">
+                                    </li>
+                                    <li>
+                                        <img src="../assets/img/partners/gm.png" loading="lazy" alt="partner">
+                                    </li>
+                                    <li>
+                                        <img src="../assets/img/partners/samsung.png" loading="lazy" alt="partner">
+                                    </li>
+                                    <li>
+                                        <img src="../assets/img/partners/uzbekistan.png" loading="lazy" alt="partner">
+                                    </li>
+                                    <li>
+                                        <img src="../assets/img/partners/tabaco.png" loading="lazy" alt="partner">
+                                    </li>
+                                    <li>
+                                        <img src="../assets/img/partners/dena.png" loading="lazy" alt="partner">
+                                    </li>
+                                    <li>
+                                        <img src="../assets/img/partners/kapitalbank.png" loading="lazy" alt="partner">
+                                    </li>
+                                    <li>
+                                        <img src="../assets/img/partners/epson.png" loading="lazy" alt="partner">
+                                    </li>
+                                    <li>
+                                        <img src="../assets/img/partners/roison.png" loading="lazy" alt="partner">
+                                    </li>
+                                    <li>
+                                        <img src="../assets/img/partners/nescafde.png" loading="lazy" alt="partner">
+                                    </li>
+                                    <li>
+                                        <img src="../assets/img/partners/unicef.png" loading="lazy" alt="partner">
+                                    </li>
+                                    <li>
+                                        <img src="../assets/img/partners/netle.png" loading="lazy" alt="partner">
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="uk-width-1-1">
+                            <div class="uk-container uk-container-large">
+                                <ul class="clients-list">
+                                    <li>
+                                        <img src="../assets/img/partners/image 7.png" loading="lazy" alt="partner">
+                                    </li>
+                                    <li>
+                                        <img src="../assets/img/partners/hyundai.png" loading="lazy" alt="partner">
+                                    </li>
+                                    <li>
+                                        <img src="../assets/img/partners/chevrolet.png" loading="lazy" alt="partner">
+                                    </li>
+                                    <li>
+                                        <img src="../assets/img/partners/gm.png" loading="lazy" alt="partner">
+                                    </li>
+                                    <li>
+                                        <img src="../assets/img/partners/samsung.png" loading="lazy" alt="partner">
+                                    </li>
+                                    <li>
+                                        <img src="../assets/img/partners/uzbekistan.png" loading="lazy" alt="partner">
+                                    </li>
+                                    <li>
+                                        <img src="../assets/img/partners/tabaco.png" loading="lazy" alt="partner">
+                                    </li>
+                                    <li>
+                                        <img src="../assets/img/partners/dena.png" loading="lazy" alt="partner">
+                                    </li>
+                                    <li>
+                                        <img src="../assets/img/partners/kapitalbank.png" loading="lazy" alt="partner">
+                                    </li>
+                                    <li>
+                                        <img src="../assets/img/partners/epson.png" loading="lazy" alt="partner">
+                                    </li>
+                                    <li>
+                                        <img src="../assets/img/partners/roison.png" loading="lazy" alt="partner">
+                                    </li>
+                                    <li>
+                                        <img src="../assets/img/partners/nescafde.png" loading="lazy" alt="partner">
+                                    </li>
+                                    <li>
+                                        <img src="../assets/img/partners/unicef.png" loading="lazy" alt="partner">
+                                    </li>
+                                    <li>
+                                        <img src="../assets/img/partners/netle.png" loading="lazy" alt="partner">
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="uk-width-1-1">
+                            <div class="uk-container uk-container-large">
+                                <ul class="clients-list">
+                                    <li>
+                                        <img src="../assets/img/partners/image 7.png" loading="lazy" alt="partner">
+                                    </li>
+                                    <li>
+                                        <img src="../assets/img/partners/hyundai.png" loading="lazy" alt="partner">
+                                    </li>
+                                    <li>
+                                        <img src="../assets/img/partners/chevrolet.png" loading="lazy" alt="partner">
+                                    </li>
+                                    <li>
+                                        <img src="../assets/img/partners/gm.png" loading="lazy" alt="partner">
+                                    </li>
+                                    <li>
+                                        <img src="../assets/img/partners/samsung.png" loading="lazy" alt="partner">
+                                    </li>
+                                    <li>
+                                        <img src="../assets/img/partners/uzbekistan.png" loading="lazy" alt="partner">
+                                    </li>
+                                    <li>
+                                        <img src="../assets/img/partners/tabaco.png" loading="lazy" alt="partner">
+                                    </li>
+                                    <li>
+                                        <img src="../assets/img/partners/dena.png" loading="lazy" alt="partner">
+                                    </li>
+                                    <li>
+                                        <img src="../assets/img/partners/kapitalbank.png" loading="lazy" alt="partner">
+                                    </li>
+                                    <li>
+                                        <img src="../assets/img/partners/epson.png" loading="lazy" alt="partner">
+                                    </li>
+                                    <li>
+                                        <img src="../assets/img/partners/roison.png" loading="lazy" alt="partner">
+                                    </li>
+                                    <li>
+                                        <img src="../assets/img/partners/nescafde.png" loading="lazy" alt="partner">
+                                    </li>
+                                    <li>
+                                        <img src="../assets/img/partners/unicef.png" loading="lazy" alt="partner">
+                                    </li>
+                                    <li>
+                                        <img src="../assets/img/partners/netle.png" loading="lazy" alt="partner">
                                     </li>
                                 </ul>
                             </div>
                         </li>
                     </ul>
-    
                     
-                    
-                    <a class="clients-slider-left-btn uk-position-center-left uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous">
-                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <a class="clients-slider-left-btn uk-position-center-left uk-position-small group" href="#" uk-slidenav-previous uk-slider-item="previous">
+                        <svg class="group-hover:mr-[10px] duration-100" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M7.17749 13.5525L2.62499 8.99999L7.17749 4.44749" stroke="#111111" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                             <path d="M15.375 9L2.7525 9" stroke="#111111" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>                                              
                     </a>
-                    <a class="clients-slider-right-btn uk-position-center-right uk-position-small" href="#" uk-slidenav-next uk-slider-item="next">
-                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <a class="clients-slider-right-btn uk-position-center-right uk-position-small group" href="#" uk-slidenav-next uk-slider-item="next">
+                        <svg class="group-hover:ml-[10px] duration-100"" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M10.8225 4.44751L15.375 9.00001L10.8225 13.5525" stroke="#111111" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                             <path d="M2.625 9H15.2475" stroke="#111111" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>                        
@@ -872,6 +989,759 @@
         </div>
     </section>
     
+    <section class="uk-section uk-padding-remove-top">
+        <div class="uk-container uk-container-large">
+            <div>
+                <h2 class="heading text-[#111] font-500" uk-scrollspy="cls: uk-animation-slide-top-medium; delay: 300; repeat: true">Categories</h2>
+            </div>
+            <div class="mt-[30px]">
+                <ul class="main-categories-list uk-grid-small uk-grid-match uk-child-width-1-4@l uk-child-width-1-3@m uk-child-width-1-2" uk-grid uk-scrollspy="target: .animFade; cls: uk-animation-fade; delay: 300;">
+                    <li class="animFade">
+                        <a href="1" class="bg-[#F7F7F7] main-categories-list-content-wrapper hover-link">
+                            <div class="uk-grid-small p-[10px] sm:py-[18px] sm:px-[24px] flex-col justify-between h-full" uk-grid>
+                                <div class="uk-width-1-1">
+                                    <img class="main-categories-list-content-wrapper-img max-w-[270px] max-h-[180px] object-cover" loading="lazy" style="mix-blend-mode: multiply;" src="../assets/img/main/categories/unique-solution.png" alt="product">
+                                </div>
+                                <div class="uk-width-3-5@s">
+                                    <p class="text-sm sm:text-lg text-[#111] font-600">
+                                        Unique solutions
+                                        from Dekos
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="animFade">
+                        <a href="2" class="bg-[#F7F7F7] main-categories-list-content-wrapper hover-link">
+                            <div class="uk-grid-small p-[10px] sm:py-[18px] sm:px-[24px] flex-col justify-between h-full" uk-grid>
+                                <div class="uk-width-1-1">
+                                    <img class="main-categories-list-content-wrapper-img max-w-[270px] max-h-[180px] object-cover" loading="lazy" style="mix-blend-mode: multiply;" src="../assets/img/main/categories/busineess-gifts.png" alt="product">
+                                </div>
+                                <div class="uk-width-3-5@s">
+                                    <p class="text-sm sm:text-lg text-[#111] font-600">
+                                        Business <br>
+                                        gifts
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="animFade">
+                        <a href="3" class="bg-[#F7F7F7] main-categories-list-content-wrapper hover-link">
+                            <div class="uk-grid-small p-[10px] sm:py-[18px] sm:px-[24px] flex-col justify-between h-full" uk-grid>
+                                <div class="uk-width-1-1">
+                                    <img class="main-categories-list-content-wrapper-img max-w-[270px] max-h-[180px] object-cover" loading="lazy" style="mix-blend-mode: multiply;" src="../assets/img/main/categories/application-services.png" alt="product">
+                                </div>
+                                <div class="uk-width-3-5@s">
+                                    <p class="text-sm sm:text-lg text-[#111] font-600">
+                                        Application <br>
+                                        services
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="animFade">
+                        <a href="#" class="bg-[#F7F7F7] main-categories-list-content-wrapper hover-link">
+                            <div class="uk-grid-small p-[10px] sm:py-[18px] sm:px-[24px] flex-col justify-between h-full" uk-grid>
+                                <div class="uk-width-1-1">
+                                    <img class="main-categories-list-content-wrapper-img max-w-[270px] max-h-[180px] object-cover" loading="lazy" style="mix-blend-mode: multiply;" src="../assets/img/main/categories/planning-products.png" alt="product">
+                                </div>
+                                <div class="uk-width-3-5@s">
+                                    <p class="text-sm sm:text-lg text-[#111] font-600">
+                                        Planning <br>
+                                        products
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="animFade">
+                        <a href="#" class="bg-[#F7F7F7] main-categories-list-content-wrapper hover-link">
+                            <div class="uk-grid-small p-[10px] sm:py-[18px] sm:px-[24px] flex-col justify-between h-full" uk-grid>
+                                <div class="uk-width-1-1">
+                                    <img class="main-categories-list-content-wrapper-img max-w-[270px] max-h-[180px] object-cover" loading="lazy" style="mix-blend-mode: multiply;" src="../assets/img/main/categories/office-souviner.png" alt="product">
+                                </div>
+                                <div class="uk-width-3-5@s">
+                                    <p class="text-sm sm:text-lg text-[#111] font-600">
+                                        Office <br>
+                                        souvenirs
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="animFade">
+                        <a href="#" class="bg-[#F7F7F7] main-categories-list-content-wrapper hover-link">
+                            <div class="uk-grid-small p-[10px] sm:py-[18px] sm:px-[24px] flex-col justify-between h-full" uk-grid>
+                                <div class="uk-width-1-1">
+                                    <img class="main-categories-list-content-wrapper-img max-w-[270px] max-h-[180px] object-cover" loading="lazy" style="mix-blend-mode: multiply;" src="../assets/img/main/categories/award.png" alt="product">
+                                </div>
+                                <div class="uk-width-3-5@s">
+                                    <p class="text-sm sm:text-lg text-[#111] font-600">
+                                        Award
+                                        products
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="animFade">
+                        <a href="#" class="bg-[#F7F7F7] main-categories-list-content-wrapper hover-link">
+                            <div class="uk-grid-small p-[10px] sm:py-[18px] sm:px-[24px] flex-col justify-between h-full" uk-grid>
+                                <div class="uk-width-1-1">
+                                    <img class="main-categories-list-content-wrapper-img max-w-[270px] max-h-[180px] object-cover" loading="lazy" style="mix-blend-mode: multiply;" src="../assets/img/main/categories/bag.png" alt="product">
+                                </div>
+                                <div class="uk-width-3-5@s">
+                                    <p class="text-sm sm:text-lg text-[#111] font-600">
+                                        Bags and <br>
+                                        folders
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="animFade">
+                        <a href="#" class="bg-[#F7F7F7] main-categories-list-content-wrapper hover-link">
+                            <div class="uk-grid-small p-[10px] sm:py-[18px] sm:px-[24px] flex-col justify-between h-full" uk-grid>
+                                <div class="uk-width-1-1">
+                                    <img class="main-categories-list-content-wrapper-img max-w-[270px] max-h-[180px] object-cover" loading="lazy" style="mix-blend-mode: multiply;" src="../assets/img/main/categories/promotion-souviner.png" alt="product">
+                                </div>
+                                <div class="uk-width-3-5@s">
+                                    <p class="text-sm sm:text-lg text-[#111] font-600">
+                                        Promotional <br>
+                                        souvenirs
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                
+                <div class="flex justify-center mt-[40px]">
+                    <a href="#"= class="hover:text-[#fff] hover:animate-pulse duration-200 hover:no-underline py-[16px] px-[24px] inline-flex text-[#fff] bg-[#DA0302] font-500 items-center text-lg">
+                        View more                                                                       
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="we-are-section uk-section bg-norepeat bg-cover w-full h-full uk-position-relative uk-background-fixed uk-background-center-center uk-height-medium" style="background-image: url('../assets/img/main/weare-back.png')" uk-scrollspy="target: .animTop; cls: uk-animation-slide-top-medium; delay: 300; repeat: true">
+        <div class="uk-container uk-container-large">
+            <div class="uk-text-center md:w-[700px] mx-auto relative z-[2]">
+                <h2 class="heading-second text-white font-gilroy font-600 animTop">
+                    We are in the <br>
+                    field for 14 years
+                </h2>
+                <p class="mt-[12px] text-lg sm:text-[24px] font-500 text-[#F1F1F1] animTop">
+                    Dekos has specialized in supplying, production and
+                    development of promotional products and business gifts.
+                </p>
+                <div class="flex justify-center mt-[36px]">
+                    <a href="#"= class="animBtnTop hover:text-[#111] hover:no-underline py-[16px] px-[36px] inline-flex text-[#111] bg-[#fff] font-500 items-center text-lg">
+                        Contact us                                                                   
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="uk-section uk-margin-large-top" uk-scrollspy="target: .animTop; cls: uk-animation-slide-top-medium; delay: 300;">
+        <div class="uk-container uk-container-large">
+            <div>
+                <h2 class="heading text-[#111] font-500" uk-scrollspy="cls: uk-animation-slide-top-medium; delay: 300; repeat: true">Our pluses</h2>
+            </div>
+            <div class="mt-[30px]">
+                <ul class="uk-child-width-1-4@l uk-child-width-1-2@s" uk-grid>
+                    <li class="animTop">
+                        <div>
+                            <div class="w-[72px] h-[72px] flex items-center justify-center rounded-full bg-[#F6F6F6]">
+                                <img src="../assets/img/svg/plans-clock.svg" loading="lazy" alt="clock">
+                            </div>
+                            <div>
+                                <h2 class="text-[#DA0302] heading-third font-500 font-gilroy mt-[18px]">Selection of brands</h2>
+                                <p class="text-[#111] text-lg mt-[12px] uk-width-3-4@s">
+                                    Decos is recognized not
+                                    only byUzbek but
+                                    also world brands.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="animTop">
+                        <div>
+                            <div class="w-[72px] h-[72px] flex items-center justify-center rounded-full bg-[#F6F6F6]">
+                                <img src="../assets/img/svg/pulses-home.svg" loading="lazy" alt="home">
+                            </div>
+                            <div>
+                                <h2 class="text-[#DA0302] heading-third font-500 font-gilroy mt-[18px]">750+ items</h2>
+                                <p class="text-[#111] text-lg mt-[12px] uk-width-3-4@s">
+                                    In the warehouse, there
+                                    are a huge selection
+                                    of products
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="animTop">
+                        <div>
+                            <div class="w-[72px] h-[72px] flex items-center justify-center rounded-full bg-[#F6F6F6]">
+                                <img src="../assets/img/svg/pulses-equipment.svg" loading="lazy" alt="equipment">
+                            </div>
+                            <div>
+                                <h2 class="text-[#DA0302] heading-third font-500 font-gilroy mt-[18px]">23 equipment</h2>
+                                <p class="text-[#111] text-lg mt-[12px] uk-width-3-4@s">
+                                    We carry out all modern
+                                    types of application
+                                    of elements.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="animTop">
+                        <div>
+                            <div class="w-[72px] h-[72px] flex items-center justify-center rounded-full bg-[#F6F6F6]">
+                                <img src="../assets/img/svg/pulses-gift.svg" loading="lazy" alt="gift">
+                            </div>
+                            <div>
+                                <h2 class="text-[#DA0302] heading-third font-500 font-gilroy mt-[18px]">Gifts for any budget</h2>
+                                <p class="text-[#111] text-lg mt-[12px] uk-width-3-4@s">
+                                    We represent promotional
+                                    products from economical
+                                    options up to VIP
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <section class="uk-section">
+        <div class="uk-container uk-container-large">
+            <div>
+                <div class="uk-position-relative uk-visible-toggle testimonials-slider" tabindex="-1" uk-slider>
+                    <div class="absolute left-0 top-[10px]">
+                        <h2 class="heading text-[#111] font-500" uk-scrollspy="cls: uk-animation-slide-top-medium; delay: 300; repeat: true">Testimonials</h2>
+                    </div>
+                    <ul class="uk-slider-items uk-child-width-1-2@s uk-child-width-1-3@m uk-grid uk-grid-small" uk-scrollspy="target: .animBottom; cls: uk-animation-slide-bottom-medium; delay: 300;">
+                        <li class="animBottom">
+                            <div class="bg-[#F9F9F9] testimonal-item relative">
+                                <div class="p-[20px] sm:p-[30px]">
+                                    <p class="text-[#111] text-lg">
+                                        “Большое спасибо компании DEKOS за высококлассный сервис, индивидуальный подход и самый лучший ассортимент бизнес продукций.”
+                                    </p>
+                                    <div class="uk-grid-small uk-grid uk-flex-middle absolute bottom-[20px] left-[20px] sm:bottom-[30px] sm:left-[30px]">
+                                        <div>
+                                            <img class="w-[54px] h-[54px] rounded-full object-cover" loading="lazy" src="../assets/img/testimonals/uybor.svg" alt="testimonial">
+                                        </div>
+                                        <div>
+                                            <h5 class="text-[#111] text-lg font-500">Улуг Кадиров</h5>
+                                            <p class="text-[#111]">
+                                                Поиск недвижимости
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="animBottom">
+                            <div class="bg-[#F9F9F9] testimonal-item relative">
+                                <div class="p-[20px] sm:p-[30px]">
+                                    <p class="text-[#111] text-lg">
+                                        “Компания DEKOS является нашим партнёром в области промопродукции и бизнес-подарков в течении многих лет.”
+                                    </p>
+                                    <div class="uk-grid-small uk-grid uk-flex-middle absolute bottom-[20px] left-[20px] sm:bottom-[30px] sm:left-[30px]">
+                                        <div>
+                                            <img class="w-[54px] h-[54px] rounded-full object-cover" src="../assets/img/testimonals/kapitalbank.png" alt="testimonial">
+                                        </div>
+                                        <div>
+                                            <h5 class="text-[#111] text-lg font-500">Воистинов К.А</h5>
+                                            <p class="text-[#111]">
+                                                Банк Узбекистана
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="animBottom">
+                            <div class="bg-[#F9F9F9] testimonal-item relative">
+                                <div class="p-[20px] sm:p-[30px]">
+                                    <p class="text-[#111] text-lg">
+                                        Хочу выразить признательность компании DEKOS, за отличную и профессиональную работу, за творческий подход и за лучший ассортимент.”
+                                    </p>
+                                    <div class="uk-grid-small uk-grid uk-flex-middle absolute bottom-[20px] left-[20px] sm:bottom-[30px] sm:left-[30px]">
+                                        <div>
+                                            <img class="w-[54px] h-[54px] rounded-full object-cover" src="../assets/img/testimonals/softline.png" alt="testimonial">
+                                        </div>
+                                        <div>
+                                            <h5 class="text-[#111] text-lg font-500">Рустам Тошов</h5>
+                                            <p class="text-[#111]">
+                                                Поставщик IT-сервисов
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="animBottom">
+                            <div class="bg-[#F9F9F9] testimonal-item relative">
+                                <div class="p-[20px] sm:p-[30px]">
+                                    <p class="text-[#111] text-lg">
+                                        “Большое спасибо компании DEKOS за высококлассный сервис, индивидуальный подход и самый лучший ассортимент бизнес продукций.”
+                                    </p>
+                                    <div class="uk-grid-small uk-grid uk-flex-middle absolute bottom-[20px] left-[20px] sm:bottom-[30px] sm:left-[30px]">
+                                        <div>
+                                            <img class="w-[54px] h-[54px] rounded-full object-cover" src="../assets/img/testimonals/uybor.svg" alt="testimonial">
+                                        </div>
+                                        <div>
+                                            <h5 class="text-[#111] text-lg font-500">Улуг Кадиров</h5>
+                                            <p class="text-[#111]">
+                                                Поиск недвижимости
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    
+                    <a class="testimonials-slider-previos uk-position-center-left uk-position-small group" href="#" uk-slidenav-previous uk-slider-item="previous">
+                        <svg class="stroke-[#111] group-hover:stroke-[#DA0302] duration-100" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7.17749 13.5525L2.62499 8.99999L7.17749 4.44749" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M15.375 9L2.7525 9" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>                                              
+                    </a>
+                    <a class="testimonials-slider-next uk-position-center-right uk-position-small group" href="#" uk-slidenav-next uk-slider-item="next">
+                        <svg class="stroke-[#111] group-hover:stroke-[#DA0302] duration-100" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.8225 4.44751L15.375 9.00001L10.8225 13.5525" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M2.625 9H15.2475" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>                        
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="uk-section faq-section">
+        <div class="uk-container uk-container-large">
+            <div>
+                <h2 class="heading text-[#111] font-500 uk-text-uppercase" uk-scrollspy="cls: uk-animation-slide-top-medium; delay: 300; repeat: true">faq</h2>
+            </div>
+            <div class="mt-[30px]">
+                <ul class="uk-nav-default uk-nav-parent-icon space-y-[13px]" uk-nav>
+                    <li class="uk-parent">
+                        <a href="#">Dekos is an independent, international branding agency. Dekos is an independent, international branding agency.</a>
+                        <ul class="uk-nav-sub" style="margin-top: 5px;">
+                            <li>
+                                <p class="text-[#1D1D1B]" style="font-size: 16px; font-weight: 500;">
+                                    Dekos is an independent, international branding agency. 
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="uk-parent">
+                        <a href="#">We provide a wide range of branding services and are one of the leading companies in the Russian market.</a>
+                        <ul class="uk-nav-sub" style="margin-top: 5px;">
+                            <li>
+                                <p class="text-[#1D1D1B]" style="font-size: 16px; font-weight: 500;">
+                                    We provide a wide range of branding services and are one of the leading companies in the Russian market.
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="uk-parent">
+                        <a href="#">Organization is key. Many great FAQ pages are useful because their questions are well grouped and categorized. </a>
+                        <ul class="uk-nav-sub" style="margin-top: 5px;">
+                            <li>
+                                <p class="text-[#1D1D1B]" style="font-size: 16px; font-weight: 500;">
+                                    Organization is key. Many great FAQ pages are useful because their questions are well grouped and categorized. 
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="uk-parent">
+                        <a href="#">Similar questions should be grouped together, even if is makes the page longer.</a>
+                        <ul class="uk-nav-sub" style="margin-top: 5px;">
+                            <li>
+                                <p class="text-[#1D1D1B]" style="font-size: 18px; font-weight: 500;">
+                                    Similar questions should be grouped together, even if is makes the page longer.
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <section class="we-are-section uk-section bg-norepeat bg-cover w-full h-full uk-position-relative uk-background-fixed uk-background-center-center uk-height-medium" style="background-image: url('../assets/img/main/weare-back.png')" uk-scrollspy="target: .animTop; cls: uk-animation-slide-top-medium; delay: 300; repeat: true">
+        <div class="uk-container uk-container-large">
+            <div class="uk-text-center md:w-[700px] mx-auto relative z-[2]">
+                <h2 class="heading-second text-white font-gilroy font-600 animTop">
+                    We are in the <br>
+                    field for 14 years
+                </h2>
+                <p class="mt-[12px] text-lg sm:text-[24px] font-500 text-[#F1F1F1] animTop">
+                    Dekos has specialized in supplying, production and
+                    development of promotional products and business gifts.
+                </p>
+                <div class="flex justify-center mt-[36px]">
+                    <a href="#"= class="animBtnTop hover:text-[#111] hover:no-underline py-[16px] px-[36px] inline-flex text-[#111] bg-[#fff] font-500 items-center text-lg">
+                        Contact us                                                                   
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="uk-section uk-margin-large-top">
+        <div class="uk-container uk-container-large">
+            <div>
+                <h2 class="heading text-[#111] font-500">Our gallery</h2>
+            </div>
+        </div>
+        <div class="mt-[30px] uk-visible@m">
+            <div class="flex w-full uk-flex-between space-x-[24px]">
+                <div class="flex space-x-[24px] justify-center">
+                    <div>
+                        <div class="flex flex-col space-y-[24px]">
+                            <div>
+                                <img class="object-cover" loading="lazy" src="../assets/img/main/gallery-1.png" alt="gallery">
+                            </div>
+                            <div>
+                                <img class="object-cover" loading="lazy" src="../assets/img/gallery/gallery-2.png" alt="gallery">
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex flex-col space-y-[24px]">
+                            <div class="flex space-x-[24px]">
+                                <div>
+                                    <img class="object-cover" loading="lazy" src="../assets/img/gallery/gallery-3.png" alt="gallery">
+                                </div>
+                                <div class="">
+                                    <img class="object-cover" loading="lazy" src="../assets/img/gallery/gallery-4.png" alt="gallery">
+                                </div>
+                            </div>
+                            <div class="flex space-x-[24px]">
+                                <div class="">
+                                    <img class="object-cover" loading="lazy" src="../assets/img/gallery/gallery-5.png" alt="gallery">
+                                </div>
+                                <div class="">
+                                    <img class="object-cover" loading="lazy" src="../assets/img/gallery/gallery-6.png" alt="gallery">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex space-x-[24px] justify-center">
+                    <div>
+                        <div class="flex flex-col space-y-[24px]">
+                            <div>
+                                <img class="object-cover" loading="lazy" src="../assets/img/gallery/gallery-7.png" alt="gallery">
+                            </div>
+                            <div>
+                                <img class="object-cover" loading="lazy" src="../assets/img/gallery/gallery-8.png" alt="gallery">
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex flex-col space-y-[24px]">
+                            <div>
+                                <img class="object-cover" src="../assets/img/gallery/gallery-9.png" loading="lazy" alt="gallery">
+                            </div>
+                            <div>
+                                <img class="object-cover" loading="lazy" src="../assets/img/gallery/gallery-10.png" alt="gallery">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="mt-[30px] uk-hidden@m">
+            <div class="uk-grid-small uk-child-width-1-1" uk-grid>
+                <div>
+                    <div class="uk-grid-small uk-child-width-1-2 uk-grid-match" uk-grid>
+                        <div>
+                            <img class="object-cover w-full" loading="lazy" src="../assets/img/main/gallery-1.png" alt="gallery">
+                        </div>
+                        <div>
+                            <img class="object-cover w-full" loading="lazy" src="../assets/img/gallery/gallery-10.png" alt="gallery">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-grid-small uk-child-width-1-2 uk-grid-match" uk-grid>
+                        <div>
+                            <img class="object-cover w-full" src="../assets/img/gallery/gallery-2.png" loading="lazy" alt="gallery">
+                        </div>
+                        <div>
+                            <img class="object-cover w-full" src="../assets/img/gallery/gallery-9.png" loading="lazy" alt="gallery">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-grid-small uk-child-width-1-2 uk-grid-match" uk-grid>
+                        <div>
+                            <img class="object-cover w-full" src="../assets/img/gallery/gallery-3.png" loading="lazy" alt="gallery">
+                        </div>
+                        <div>
+                            <img class="object-cover w-full" src="../assets/img/gallery/gallery-4.png" loading="lazy" alt="gallery">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-grid-small uk-child-width-1-2 uk-grid-match" uk-grid>
+                        <div>
+                            <img class="object-cover w-full" src="../assets/img/gallery/gallery-5.png" loading="lazy" alt="gallery">
+                        </div>
+                        <div>
+                            <img class="object-cover w-full" src="../assets/img/gallery/gallery-6.png" loading="lazy" alt="gallery">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-grid-small uk-child-width-1-2 uk-grid-match" uk-grid>
+                        <div>
+                            <img class="object-cover w-full" src="../assets/img/gallery/gallery-7.png" loading="lazy" alt="gallery">
+                        </div>
+                        <div>
+                            <img class="object-cover w-full" src="../assets/img/gallery/gallery-8.png" loading="lazy" alt="gallery">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="uk-section uk-margin-medium-top uk-padding-remove-bottom">
+        <div class="uk-container uk-container-large">
+            <div class="border-t-2 border-[#EFEFEF] pt-[50px]">
+                <div class="uk-text-center mx-auto md:w-[550px]">
+                    <a href="index.html" class="hover-link uk-display-inline-block">
+                        <img class="w-[148px]" src="../assets/img/logo/dekos.svg" alt="brend">
+                    </a>
+                    <div>
+                        <p class="text-lg text-[#111] mt-[24px]">
+                            Dekos is the company has specialized in supplying, production and
+                            development of promotional products and business gifts.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="sm:mt-[48px] border-b-2 border-[#EFEFEF] pb-[30px] sm:pb-[50px]">
+                <ul class="uk-flex-between@m uk-flex-center uk-text-center uk-text-left@s pt-[30px] sm:pt-[0] uk-grid-collapse" uk-grid>
+                    <li class="sm:w-[150px]">
+                        <ul class="flex flex-col space-y-[12px]">
+                            <li>
+                                <h3 class="heading-third text-[#111] mb-[6px]" style="font-weight: 600;">Pages</h3>
+                            </li>
+                            <li class="text-[#111]">
+                                <a href="index.html" class="text-lg font-500 text-[#111] hover-link line-animation">
+                                    Home
+                                </a>
+                            </li>
+                            <li class="text-[#111]">
+                                <a href="catalog.html" class="text-lg font-500 text-[#111] hover-link line-animation">
+                                    Catalog
+                                </a>
+                            </li>
+                            <li class="text-[#111]">
+                                <a href="contact.html" class="text-lg font-500 text-[#111] hover-link line-animation">
+                                    Contacts
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="uk-width-1-5@l uk-width-1-3@s">
+                        <ul class="flex flex-col space-y-[12px]">
+                            <li>
+                                <h3 class="heading-third text-[#111] mb-[6px] mt-[30px] sm:mt-[0px]" style="font-weight: 600;">Products</h3>
+                            </li>
+                            <li class="text-[#111]">
+                                <a href="#" class="text-lg font-500 text-[#111] hover-link line-animation">
+                                    New items 2020-2021
+                                </a>
+                            </li>
+                            <li class="text-[#111]">
+                                <a href="#" class="text-lg font-500 text-[#111] hover-link line-animation">
+                                    Unique solutions from Dekos
+                                </a>
+                            </li>
+                            <li class="text-[#111]">
+                                <a href="#" class="text-lg font-500 text-[#111] hover-link line-animation">
+                                    External batteries
+                                </a>
+                            </li>
+                            <li class="text-[#111]">
+                                <a href="#" class="text-lg font-500 text-[#111] hover-link line-animation">
+                                    Business gifts
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="uk-width-1-6@l uk-width-1-4@s">
+                        <ul class="flex flex-col space-y-[12px]">
+                            <li class="uk-invisible">
+                                <h3 class="heading-third text-[#111] sm:mb-[6px]" style="font-weight: 600;">something</h3>
+                            </li>
+                            <li class="text-[#111]">
+                                <a href="#" class="text-lg font-500 text-[#111] hover-link line-animation">
+                                    Award products
+                                </a>
+                            </li>
+                            <li class="text-[#111]">
+                                <a href="#" class="text-lg font-500 text-[#111] hover-link line-animation">
+                                    Planning products
+                                </a>
+                            </li>
+                            <li class="text-[#111]">
+                                <a href="#" class="text-lg font-500 text-[#111] hover-link line-animation">
+                                    Own developments
+                                </a>
+                            </li>
+                            <li class="text-[#111]">
+                                <a href="#" class="text-lg font-500 text-[#111] hover-link line-animation">
+                                    Application services
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="uk-width-1-6@l uk-width-1-4@m uk-width-1-3@s">
+                        <ul class="flex flex-col space-y-[12px]">
+                            <li class="uk-invisible">
+                                <h3 class="heading-third text-[#111] sm:mb-[6px]" style="font-weight: 600;">something</h3>
+                            </li>
+                            <li class="text-[#111]">
+                                <a href="#" class="text-lg font-500 text-[#111] hover-link line-animation">
+                                    Flash drives
+                                </a>
+                            </li>
+                            <li class="text-[#111]">
+                                <a href="#" class="text-lg font-500 text-[#111] hover-link line-animation">
+                                    Umbrella
+                                </a>
+                            </li>
+                            <li class="text-[#111]">
+                                <a href="#" class="text-lg font-500 text-[#111] hover-link line-animation">
+                                    Pens
+                                </a>
+                            </li>
+                            <li class="text-[#111]">
+                                <a href="selectedItem.html" class="text-lg font-500 text-[#111] hover-link line-animation">
+                                    Promotional souvenirs
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="md:w-[170px]">
+                        <ul class="flex flex-col space-y-[12px]">
+                            <li class="uk-invisible">
+                                <h3 class="heading-third text-[#111] sm:mb-[6px]" style="font-weight: 600;">something</h3>
+                            </li>
+                            <li class="text-[#111]">
+                                <a href="#" class="text-lg font-500 text-[#111] hover-link line-animation">
+                                    Office souvenirs
+                                </a>
+                            </li>
+                            <li class="text-[#111]">
+                                <a href="#" class="text-lg font-500 text-[#111] hover-link line-animation">
+                                    Bags and folders
+                                </a>
+                            </li>
+                            <li class="text-[#111]">
+                                <a href="#" class="text-lg font-500 text-[#111] hover-link line-animation">
+                                    Textile
+                                </a>
+                            </li>
+                            <li class="text-[#111]">
+                                <a href="#" class="text-lg font-500 text-[#111] hover-link line-animation">
+                                    Tableware
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="border-b-2 border-[#EFEFEF]">
+                <div class="py-[30px] uk-flex-wrap uk-flex-middle uk-flex-between@s uk-flex-center" uk-grid>
+                    <div class="uk-width-1-1 uk-width-auto@m uk-flex uk-flex-center uk-flex-left@s">
+                        <div class="uk-text-center uk-text-left@s">
+                            <p class="text-[#111] text-lg">Phone:</p>
+                            <ul class="uk-grid-small uk-flex-middle uk-flex-center mt-[12px] uk-flex-wrap" uk-grid>
+                                <li class="text-[#111]">
+                                    <a href="#" class="hover-link text-lg font-500 text-[#111]">
+                                        +998 78 129 00 66
+                                    </a>
+                                </li>
+                                <li class="text-[#111]">
+                                    <a href="#" class="hover-link text-lg font-500 text-[#111]">
+                                        +998 78 129 00 66
+                                    </a>
+                                </li>
+                                <li class="text-[#111]">
+                                    <a href="#" class="hover-link text-lg font-500 text-[#111]">
+                                        +998 78 129 00 66
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="uk-text-center uk-text-left@s">
+                        <p class="text-[#111] text-lg">Social networks:</p>
+                        <ul class="uk-grid-small uk-flex-middle mt-[12px]" uk-grid>
+                            <li class="text-[#111]">
+                                <a href="#" class="group hover-link w-[36px] h-[36px] rounded-full flex items-center justify-center" style="border: 1.5px solid rgba(17, 17, 17, 0.12);">
+                                    <img class="group-hover:scale-[1.1] duration-300" src="../assets/img/svg/telegram.svg" alt="telegram">
+                                </a>
+                            </li>
+                            <li class="text-[#111]">
+                                <a href="#" class="group hover-link w-[36px] h-[36px] rounded-full flex items-center justify-center" style="border: 1.5px solid rgba(17, 17, 17, 0.12);">
+                                    <img class="group-hover:scale-[1.1] duration-300" src="../assets/img/svg/instagram.svg" alt="instagram">
+                                </a>
+                            </li>
+                            <li class="text-[#111]">
+                                <a href="#" class="group hover-link w-[36px] h-[36px] rounded-full flex items-center justify-center" style="border: 1.5px solid rgba(17, 17, 17, 0.12);">
+                                    <img class="group-hover:scale-[1.1] duration-300" src="../assets/img/svg/facebook.svg" alt="facebook">
+                                </a>
+                            </li>
+                            <li class="text-[#111]">
+                                <a href="#" class="group hover-link w-[36px] h-[36px] rounded-full flex items-center justify-center" style="border: 1.5px solid rgba(17, 17, 17, 0.12);">
+                                    <img class="group-hover:scale-[1.1] duration-300" src="../assets/img/svg/twiiter.svg" alt="twitter">
+                                </a>
+                            </li>
+                            <li class="text-[#111]">
+                                <a href="#" class="group hover-link w-[36px] h-[36px] rounded-full flex items-center justify-center" style="border: 1.5px solid rgba(17, 17, 17, 0.12);">
+                                    <img class="group-hover:scale-[1.1] duration-300" src="../assets/img/svg/youtube.svg" alt="youtibe">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="uk-flex-wrap uk-flex-middle uk-flex-between py-[18px] text-[#111] uk-text-center uk-text-left@m uk-grid-small" uk-grid>
+                    <p class="text-[#111] uk-width-1-2@m">
+                        © Dekos, 2015-2021. All rights reserved. Copying information from the site is prohibited.
+                    </p>
+                    <div class="uk-width-1-1 uk-width-auto@m flex justify-center">
+                        <a href="#" class="flex hover-link">
+                            <img class="h-[18px] mt-[3px]" src="../assets/img/svg/map.svg" alt="map">
+                            <p class="text-[#111] ml-[6px]">
+                                Tashkent, Mirabad district, Mirabad 41/4
+                            </p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     
     <div id="overlay" class="uk-position-fixed uk-width-1-1 uk-height-1-1 uk-position-top-left uk-flex uk-flex-center uk-flex-middle" style="background-color: #fff !important; z-index: 10001;">
         <div id="loader" class="w-full h-full">

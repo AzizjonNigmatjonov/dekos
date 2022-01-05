@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="../assets/img/logo/dekos.svg">
+  <link rel="stylesheet" href="../assets/css/base/style.css">
+  <title>Dekos</title>
+  <link rel="stylesheet" href="../assets/css/uikit.min.css" />
+  <link rel="stylesheet" href="../assets/css/tailwind.css" />
+</head>
+<body>
+  
+  <div  id="header" uk-sticky="show-on-up: true; animation: uk-animation-slide-top; sel-target: .header; cls-active: uk-navbar-sticky bg-[#F9F9F9]; cls-inactive: uk-navbar-transparent z-[9]; top: 200;" class="navbar">
+    <header class="header absolute top-0 left-0 w-full z-10 bg-[#fff]" uk-scrollspy="target: .animateRight; cls: uk-animation-slide-left-small; delay: 100;">
+        
+        <div class="uk-container uk-container-large">
+            <div class="nav-details py-[20px] border-b-2 border-[#EFEFEF]">
+                <div class="flex items-center justify-between">
+                    <ul class="uk-grid-medium uk-flex-middle" uk-grid>
+                        <li class="text-[#DA0302] uk-visible@l">
+                            <a href="#" class="flex text-[#111] items-center hover-link duration-100">
+                                <svg class="mr-[6px] stroke-current" width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.71753 6.33498V13.6325C1.71753 15.0575 2.73003 15.6425 3.96003 14.9375L5.72253 13.9325C6.10503 13.715 6.74253 13.6925 7.14003 13.895L11.0775 15.8675C11.475 16.0625 12.1125 16.0475 12.495 15.83L15.7425 13.97C16.155 13.73 16.5 13.145 16.5 12.665V5.36748C16.5 3.94248 15.4875 3.35748 14.2575 4.06248L12.495 5.06748C12.1125 5.28498 11.475 5.30748 11.0775 5.10498L7.14003 3.13998C6.74253 2.94498 6.10503 2.95998 5.72253 3.17748L2.47503 5.03748C2.05503 5.27748 1.71753 5.86248 1.71753 6.33498Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M6.41992 3.5V13.25" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M11.7976 5.46484V15.4998" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>                                                                        
+                                <p>
+                                    Tashkent, Mirabad district, Mirabad 41/4
+                                </p>
+                            </a>
+                        </li>
+                        <li class="text-[#111] animateRight">
+                            <a href="#" class="flex items-center hover-link ml-[10px] group">
+                                <img class="mr-[6px] group-hover:scale-[1.1] group-hover:rotate-[45deg] duration-200" src="../assets/img/svg/nav-call.svg" alt="call">                                       
+                                <p class="text-[#111] font-500">
+                                    +998 78 129 00 66
+                                </p>
+                            </a>
+                        </li>
+                        <li class="text-[#111] animateRight uk-visible@s">
+                            <a href="#" class="flex items-center hover-link ml-[10px] group">
+                                <img class="mr-[6px] group-hover:scale-[1.1] group-hover:rotate-[45deg] duration-200" src="../assets/img/svg/nav-call.svg" alt="call">                                       
+                                <p class="text-[#111] font-500">
+                                    +998 93 550 66 88
+                                </p>
+                            </a>
+                        </li>
+                        <li class="text-[#111] animateRight uk-visible@m">
+                            <a href="#" class="flex items-center hover-link ml-[10px] group">
+                                <img class="mr-[6px] group-hover:scale-[1.1] group-hover:rotate-[45deg] duration-200" src="../assets/img/svg/nav-call.svg" alt="call">                                       
+                                <p class="text-[#111] font-500">
+                                    +998 90 900 49 38
+                                </p>
+                            </a>
+                        </li>   
+                        <li class="text-[#111] uk-visible@s">
+                            <a href="contact.html" class="py-[8px] px-[12px] hover-link text-[#111] font-600 bg-[#EFEFEF] animBtnTop ml-[10px]">
+                                Request a call
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="uk-visible@s">
+                        <ul>
+                            <li class="text-[#DA0302]">
+                                <a href="FAQ.html" class="hover-link text-[#111] duration-100">                                   
+                                    <p class="font-500 uk-text-uppercase">
+                                        FAQ
+                                    </p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <nav class="uk-flex uk-flex-middle py-[20px]" uk-grid>
+                
+                <div class="uk-navbar-left">
+                    <div class="flex uk-flex-middle">
+                        <div>
+                            <ul>
+                                <li>
+                                    <a href="index.html">
+                                        <img class="w-[100px]" src="../assets/img/logo/dekos.svg" alt="Logo">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <div class="uk-visible@m ml-[50px]">
+                            <ul class="uk-flex-middle uk-grid-medium" uk-grid>
+                                <li class="text-[#DA0302] animateRight">
+                                    <a href="index.html" class="text-lg font-500 text-[#111] hover-link duration-100">
+                                        Home
+                                    </a>
+                                </li>
+                                <li class="text-[#DA0302] animateRight">
+                                    <a href="catalog.html" class="text-lg font-500 text-[#111] hover-link uk-flex uk-flex-middle duration-100">
+                                        <span>Catalog</span>
+                                        <svg class="stroke-current ml-[6px] mt-[3px]" width="10" height="5" viewBox="0 0 10 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M8.5 0.75L5 4.25L1.5 0.75" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </a>
+                                    <div uk-dropdown="pos: bottom-left; animation: uk-animation-slide-top-small; duration: 200" style="padding: 20px 30px 30px 24px;">
+                                        <ul class="uk-nav uk-dropdown-nav uk-child-width-1-2 uk-child-width-1-3@l uk-flex-between" uk-grid>
+                                            <li class="uk-parent uk-padding-remove-left">
+                                                <a href="#" class="uk-flex uk-flex-middle mt-[3px] text-lg 2xl:text-xl group">
+                                                    Unique solutions
+                                                    from Dekos
+                                                    <svg class="hidden group-hover:block stroke-current rotate-[-90deg] ml-[10px] duration-300" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M11.6199 5.22083L7.81655 9.02416C7.36738 9.47333 6.63238 9.47333 6.18322 9.02416L2.37988 5.22083" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    </svg>                                                            
+                                                </a>
+                                                <a href="#" class="uk-flex uk-flex-middle mt-[3px] text-lg 2xl:text-xl group">
+                                                    External
+                                                    batteries
+                                                    <svg class="hidden group-hover:block stroke-current rotate-[-90deg] ml-[10px] duration-300" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M11.6199 5.22083L7.81655 9.02416C7.36738 9.47333 6.63238 9.47333 6.18322 9.02416L2.37988 5.22083" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    </svg>                                                            
+                                                </a>
+                                                <a href="#" class="uk-flex uk-flex-middle mt-[3px] text-lg 2xl:text-xl group">
+                                                    Business
+                                                    gifts
+                                                    <svg class="hidden group-hover:block stroke-current rotate-[-90deg] ml-[10px] duration-300" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M11.6199 5.22083L7.81655 9.02416C7.36738 9.47333 6.63238 9.47333 6.18322 9.02416L2.37988 5.22083" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    </svg>                                                            
+                                                </a>
+                                                <a href="#" class="uk-flex uk-flex-middle mt-[3px] text-lg 2xl:text-xl group">
+                                                    Planning
+                                                    products
+                                                    <svg class="hidden group-hover:block stroke-current rotate-[-90deg] ml-[10px] duration-300" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M11.6199 5.22083L7.81655 9.02416C7.36738 9.47333 6.63238 9.47333 6.18322 9.02416L2.37988 5.22083" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    </svg>                                                            
+                                                </a>
+                                                <a href="#" class="uk-flex uk-flex-middle mt-[3px] text-lg 2xl:text-xl group">
+                                                    Award
+                                                    products
+                                                    <svg class="hidden group-hover:block stroke-current rotate-[-90deg] ml-[10px] duration-300" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M11.6199 5.22083L7.81655 9.02416C7.36738 9.47333 6.63238 9.47333 6.18322 9.02416L2.37988 5.22083" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    </svg>                                                            
+                                                </a>
+                                            </li>
+                                            <li class="uk-parent uk-padding-remove-left">
+                                                <a href="#" class="uk-flex uk-flex-middle mt-[3px] text-lg 2xl:text-xl group">
+                                                    Own
+                                                    developments
+                                                    <svg class="hidden group-hover:block stroke-current rotate-[-90deg] ml-[10px] duration-300" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M11.6199 5.22083L7.81655 9.02416C7.36738 9.47333 6.63238 9.47333 6.18322 9.02416L2.37988 5.22083" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    </svg>                                                            
+                                                </a>
+                                                <a href="#" class="uk-flex uk-flex-middle mt-[3px] text-lg 2xl:text-xl group">
+                                                    Application
+                                                    services
+                                                    <svg class="hidden group-hover:block stroke-current rotate-[-90deg] ml-[10px] duration-300" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M11.6199 5.22083L7.81655 9.02416C7.36738 9.47333 6.63238 9.47333 6.18322 9.02416L2.37988 5.22083" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    </svg>                                                            
+                                                </a>
+                                                <a href="#" class="uk-flex uk-flex-middle mt-[3px] text-lg 2xl:text-xl group">
+                                                    Flash
+                                                    drives
+                                                    <svg class="hidden group-hover:block stroke-current rotate-[-90deg] ml-[10px] duration-300" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M11.6199 5.22083L7.81655 9.02416C7.36738 9.47333 6.63238 9.47333 6.18322 9.02416L2.37988 5.22083" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    </svg>                                                            
+                                                </a>
+                                                <a href="#" class="uk-flex uk-flex-middle mt-[3px] text-lg 2xl:text-xl group">
+                                                    Umbrella
+                                                    <svg class="hidden group-hover:block stroke-current rotate-[-90deg] ml-[10px] duration-300" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M11.6199 5.22083L7.81655 9.02416C7.36738 9.47333 6.63238 9.47333 6.18322 9.02416L2.37988 5.22083" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    </svg>                                                            
+                                                </a>
+                                                <a href="#" class="uk-flex uk-flex-middle mt-[3px] text-lg 2xl:text-xl group">
+                                                    Pens
+                                                    <svg class="hidden group-hover:block stroke-current rotate-[-90deg] ml-[10px] duration-300" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M11.6199 5.22083L7.81655 9.02416C7.36738 9.47333 6.63238 9.47333 6.18322 9.02416L2.37988 5.22083" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    </svg>                                                            
+                                                </a>
+                                            </li>
+                                            <li class="uk-parent uk-padding-remove-left">
+                                                <a href="selectedItem.html" class="uk-flex uk-flex-middle mt-[3px] text-lg 2xl:text-xl group">
+                                                    Promotional
+                                                    souvenirs
+                                                    <svg class="hidden group-hover:block stroke-current rotate-[-90deg] ml-[10px] duration-300" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M11.6199 5.22083L7.81655 9.02416C7.36738 9.47333 6.63238 9.47333 6.18322 9.02416L2.37988 5.22083" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    </svg>                                                            
+                                                </a>
+                                                <a href="#" class="uk-flex uk-flex-middle mt-[3px] text-lg 2xl:text-xl group">
+                                                    Office
+                                                    souvenirs
+                                                    <svg class="hidden group-hover:block stroke-current rotate-[-90deg] ml-[10px] duration-300" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M11.6199 5.22083L7.81655 9.02416C7.36738 9.47333 6.63238 9.47333 6.18322 9.02416L2.37988 5.22083" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    </svg>                                                            
+                                                </a>
+                                                <a href="#" class="uk-flex uk-flex-middle mt-[3px] text-lg 2xl:text-xl group">
+                                                    Bags and
+                                                    folders
+                                                    <svg class="hidden group-hover:block stroke-current rotate-[-90deg] ml-[10px] duration-300" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M11.6199 5.22083L7.81655 9.02416C7.36738 9.47333 6.63238 9.47333 6.18322 9.02416L2.37988 5.22083" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    </svg>                                                            
+                                                </a>
+                                                <a href="#" class="uk-flex uk-flex-middle mt-[3px] text-lg 2xl:text-xl group">
+                                                    Textile
+                                                    <svg class="hidden group-hover:block stroke-current rotate-[-90deg] ml-[10px] duration-300" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M11.6199 5.22083L7.81655 9.02416C7.36738 9.47333 6.63238 9.47333 6.18322 9.02416L2.37988 5.22083" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    </svg>                                                            
+                                                </a>
+                                                <a href="#" class="uk-flex uk-flex-middle mt-[3px] text-lg 2xl:text-xl group">
+                                                    Tableware
+                                                    <svg class="hidden group-hover:block stroke-current rotate-[-90deg] ml-[10px] duration-300" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M11.6199 5.22083L7.81655 9.02416C7.36738 9.47333 6.63238 9.47333 6.18322 9.02416L2.37988 5.22083" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    </svg>                                                            
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="text-[#DA0302] animateRight">
+                                    <a href="contact.html" class="text-lg font-500 text-[#111] hover-link duration-100">
+                                        Contacts
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="uk-navbar-right">
+                    <div class="uk-flex-middle uk-grid-medium" uk-grid>
+                        <div class="uk-visible@m">
+                            <div>
+                                <a href="#searchModal" uk-toggle>
+                                    <img class="w-[24px] h-[24px]" src="../assets/img/svg/nav-search.svg" alt="search">
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div id="searchModal" uk-modal>
+                            <div class="uk-modal-dialog uk-modal-body md:p-[30px]">
+                                <div>
+                                    <div class="flex items-center bg-[#EFEFEF]">
+                                        <svg class="stroke-current ml-[15px]" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M11.5 21C16.7467 21 21 16.7467 21 11.5C21 6.25329 16.7467 2 11.5 2C6.25329 2 2 6.25329 2 11.5C2 16.7467 6.25329 21 11.5 21Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M22 22L20 20" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>                                                
+                                        <input class="pl-[10px] mr-[20px] py-[15px] w-full focus:outline-none bg-[#EFEFEF] text-[#1d1d1b]" placeholder="Search" type="text">
+                                    </div>
+                                </div>
+                                <h3 class="text-[16px] mt-[30px] text-[#111] font-600 uk-text-uppercase mb-[5px] text-sm" style="font-family: 'Gilroy';">Products</h3>
+                                <ul class="p-[10px] uk-grid-small uk-child-width-1-1" uk-grid>
+                                    <li class="uk-parent text-[#111] animateLeft">
+                                        <a href="index.html" class="hover-link text-[#111] font-500">
+                                            Unique solutions
+                                            from Dekos
+                                        </a>
+                                    </li>
+                                    <li class="uk-parent text-[#111] animateLeft">
+                                        <a href="index.html" class="hover-link text-[#111] font-500">
+                                            External
+                                            batteries
+                                        </a>
+                                    </li>
+                                    <li class="uk-parent text-[#111] animateLeft">
+                                        <a href="index.html" class="hover-link text-[#111] font-500">
+                                            Business
+                                            gifts
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="uk-visible@m">
+                            <div>
+                                <a href="#" class="nav-link hover:text-[#111] hover:no-underline py-[12px] px-[18px] text-[#111] bg-[#EFEFEF] focus:bg-[#DA0302] focus:text-[#fff] duration-200 lang inline-flex font-500 items-center text-lg group" style="animation-duration: .8s;">
+                                    English
+                                    <svg class="ml-[6px] group-focus:rotate-[-180deg] duration-200 stroke-current" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.6199 5.22083L7.81655 9.02416C7.36738 9.47333 6.63238 9.47333 6.18322 9.02416L2.37988 5.22083" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>                                            
+                                </a>
+                                <div class="uk-padding-remove" style="min-width: 100px;" uk-dropdown="pos: bottom-justify;animation: uk-animation-slide-top-small; duration: 200; mode: click">
+                                    
+                                    <ul class="uk-grid uk-grid-small uk-flex-middle uk-flex-column uk-padding-small" uk-grid >
+                                        <li class="uk-width-auto text-[#111]">
+                                            <a href="javascript.void(0)" class="text-lg hover-link text-[#111] font-500">
+                                                Russian
+                                            </a>
+                                        </li>
+                                        <li class="uk-width-auto text-[#111]">
+                                            <a href="javascript.void(0)" class="text-lg hover-link text-[#111] font-500">
+                                                Uzbek
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="uk-hidden@m">
+                            <div class="text-[#1d1d1b]">
+                                <a href="javascript:void(0);" uk-toggle="target: #offcanvas-flip" class="text-[#1d1d1b] hover-link">
+                                    <ul class="uk-flex uk-flex-column space-y-[3px]">
+                                        <li>
+                                            <hr class="border-none w-[24px] h-[3px] bg-[#DA0302]">
+                                        </li>
+                                        <li>
+                                            <hr class="border-none w-[24px] h-[3px] bg-[#DA0302]">
+                                        </li>
+                                        <li>
+                                            <hr class="border-none w-[24px] h-[3px] bg-[#DA0302]">
+                                        </li>
+                                    </ul>                                           
+                                </a>
+                            </div>
+                            
+                            <div id="offcanvas-flip" uk-offcanvas="flip: true; overlay: true">
+                                <div class="uk-offcanvas-bar">
+                                    
+                                    <div class="uk-flex uk-flex-right">
+                                        <button class="uk-offcanvas-close" type="button" uk-close>
+                                            <svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z"/></svg>
+                                        </button>
+                                    </div>
+                                    
+                                    <ul class="mt-[20px] items-end uk-flex-column uk-grid-small uk-text-uppercase uk-child-width-1-1" uk-grid uk-scrollspy="target: .animBottom; cls: uk-animation-slide-top-small; delay: 100; repeat: true">
+                                        <li class="uk-flex uk-flex-right">
+                                            <a href="index.html" class="font-400 animBottom">
+                                                Home
+                                            </a>
+                                        </li>
+                                        <div>
+                                            <hr class="border-none w-full h-[1px] bg-[#fff] bg-opacity-[0.06]">
+                                        </div>
+                                        <li class="uk-flex uk-flex-right">
+                                            <a href="catalog.html" class="font-400 animBottom">
+                                                Catalog
+                                            </a>
+                                        </li>
+                                        <div>
+                                            <hr class="border-none w-full h-[1px] bg-[#fff] bg-opacity-[0.06]">
+                                        </div>
+                                        <li class="uk-flex uk-flex-right">
+                                            <a href="contact.html" class="font-400 animBottom">
+                                                Contacts
+                                            </a>
+                                        </li>
+                                        <div>
+                                            <hr class="border-none w-full h-[1px] bg-[#fff] bg-opacity-[0.06]">
+                                        </div>
+                                        <li class="uk-flex uk-flex-right">
+                                            <ul class="uk-grid-small uk-flex-middle" uk-grid>
+                                                <li class="text-[#fff]">
+                                                    <a href="#" class="text-[#fff] font-400 hover-link animBottom">UZ</a>
+                                                </li>
+                                                <li>
+                                                    <hr class="border-none w-[1px] h-[16px] bg-[#fff] bg-opacity-[0.06]">
+                                                </li>
+                                                <li class="text-[#fff]">
+                                                    <a href="#" class="text-[#fff] font-400 hover-link animBottom">RU</a>
+                                                </li>
+                                                <li>
+                                                    <hr class="border-none w-[1px] h-[16px] bg-[#fff] bg-opacity-[0.06]">
+                                                </li>
+                                                <li class="text-[#fff]">
+                                                    <a href="#" class="text-[#fff] font-400 hover-link animBottom">EN</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </nav>
+        </div>
+        
+    </header>
+</div>
+  
+  <section class="uk-section mt-[120px] promotion-section">
+    <div class="uk-container uk-container-large">
+      <div>
+        <div class="uk-grid-small items-center text-[#111] mb-[36px]" uk-grid>
+          <div>
+            <a href="index.html" class="hover-link text-[#111] font-500">
+              <p>Home</p>
+            </a>
+          </div>
+          <div>
+            <hr class="border-none bg-[#111] w-[1.5px] h-[16px] rotate-[22deg]">
+          </div>
+          <div>
+            <p class="text-[#111] text-opacity-[0.48] font-500">Contacts</p>
+          </div>
+        </div>
+      </div>
+      <div class="mt-[30px]">
+        <div>
+          <h2 class="text-[#111] text-[36px] font-600 font-gilroy">Contacts</h2>
+          <div class="mt-[30px] uk-grid-large flex-wrap justify-between items-center uk-grid-match" uk-grid>
+            <div class="sm:w-[470px]">
+              <div>
+                <p class="text-[#111] text-[18px]">Phone:</p>
+                <ul class="flex flex-col space-y-[8px] mt-[12px]">
+                  <li class="text-[#DA0302]">
+                    <a href="#" class="text-[#111] font-500 text-lg hover-link">
+                      +998 78 129 00 66
+                    </a>
+                  </li>
+                  <li class="text-[#DA0302]">
+                    <a href="#" class="text-[#111] font-500 text-lg hover-link">
+                      +998 78 129 00 66
+                    </a>
+                  </li>
+                  <li class="text-[#DA0302]">
+                    <a href="#" class="text-[#111] font-500 text-lg hover-link">
+                      +998 78 129 00 66
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="mt-[30px]">
+                <p class="text-[#111] text-[18px]">Adress:</p>
+                <div class="text-[#DA0302]">
+                  <a href="#" class="text-[#111] font-500 text-lg hover-link line-animation">
+                    Tashkent, Mirabad district, Mirabad 41/4
+                  </a>
+                </div>
+              </div>
+              <div class="mt-[30px]">
+                <p class="text-[#111] text-[18px]">Email:</p>
+                <div class="text-[#DA0302]">
+                  <a href="#" class="text-[#111] font-500 text-lg hover-link line-animation">
+                    Dekos@info.uz
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="uk-width-expand@m uk-width-1-1">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2997.443618657482!2d69.28289011573519!3d41.29921200941896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b2616f94705%3A0x720b816eb8acffcb!2sMountain%20uz!5e0!3m2!1sru!2s!4v1641273521041!5m2!1sru!2s" width="100%" height="350px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <footer class="uk-section uk-margin-medium-top uk-padding-remove-bottom">
+    <div class="uk-container uk-container-large">
+        <div class="border-t-2 border-[#EFEFEF] pt-[50px]">
+            <div class="uk-text-center mx-auto md:w-[550px]">
+                <a href="index.html" class="hover-link uk-display-inline-block">
+                    <img class="w-[148px]" src="../assets/img/logo/dekos.svg" alt="brend">
+                </a>
+                <div>
+                    <p class="text-lg text-[#111] mt-[24px]">
+                        Dekos is the company has specialized in supplying, production and
+                        development of promotional products and business gifts.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="sm:mt-[48px] border-b-2 border-[#EFEFEF] pb-[30px] sm:pb-[50px]">
+            <ul class="uk-flex-between@m uk-flex-center uk-text-center uk-text-left@s pt-[30px] sm:pt-[0] uk-grid-collapse" uk-grid>
+                <li class="sm:w-[150px]">
+                    <ul class="flex flex-col space-y-[12px]">
+                        <li>
+                            <h3 class="heading-third text-[#111] mb-[6px]" style="font-weight: 600;">Pages</h3>
+                        </li>
+                        <li class="text-[#111]">
+                            <a href="index.html" class="text-lg font-500 text-[#111] hover-link line-animation">
+                                Home
+                            </a>
+                        </li>
+                        <li class="text-[#111]">
+                            <a href="catalog.html" class="text-lg font-500 text-[#111] hover-link line-animation">
+                                Catalog
+                            </a>
+                        </li>
+                        <li class="text-[#111]">
+                            <a href="contact.html" class="text-lg font-500 text-[#111] hover-link line-animation">
+                                Contacts
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="uk-width-1-5@l uk-width-1-3@s">
+                    <ul class="flex flex-col space-y-[12px]">
+                        <li>
+                            <h3 class="heading-third text-[#111] mb-[6px] mt-[30px] sm:mt-[0px]" style="font-weight: 600;">Products</h3>
+                        </li>
+                        <li class="text-[#111]">
+                            <a href="#" class="text-lg font-500 text-[#111] hover-link line-animation">
+                                New items 2020-2021
+                            </a>
+                        </li>
+                        <li class="text-[#111]">
+                            <a href="#" class="text-lg font-500 text-[#111] hover-link line-animation">
+                                Unique solutions from Dekos
+                            </a>
+                        </li>
+                        <li class="text-[#111]">
+                            <a href="#" class="text-lg font-500 text-[#111] hover-link line-animation">
+                                External batteries
+                            </a>
+                        </li>
+                        <li class="text-[#111]">
+                            <a href="#" class="text-lg font-500 text-[#111] hover-link line-animation">
+                                Business gifts
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="uk-width-1-6@l uk-width-1-4@s">
+                    <ul class="flex flex-col space-y-[12px]">
+                        <li class="uk-invisible">
+                            <h3 class="heading-third text-[#111] sm:mb-[6px]" style="font-weight: 600;">something</h3>
+                        </li>
+                        <li class="text-[#111]">
+                            <a href="#" class="text-lg font-500 text-[#111] hover-link line-animation">
+                                Award products
+                            </a>
+                        </li>
+                        <li class="text-[#111]">
+                            <a href="#" class="text-lg font-500 text-[#111] hover-link line-animation">
+                                Planning products
+                            </a>
+                        </li>
+                        <li class="text-[#111]">
+                            <a href="#" class="text-lg font-500 text-[#111] hover-link line-animation">
+                                Own developments
+                            </a>
+                        </li>
+                        <li class="text-[#111]">
+                            <a href="#" class="text-lg font-500 text-[#111] hover-link line-animation">
+                                Application services
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="uk-width-1-6@l uk-width-1-4@m uk-width-1-3@s">
+                    <ul class="flex flex-col space-y-[12px]">
+                        <li class="uk-invisible">
+                            <h3 class="heading-third text-[#111] sm:mb-[6px]" style="font-weight: 600;">something</h3>
+                        </li>
+                        <li class="text-[#111]">
+                            <a href="#" class="text-lg font-500 text-[#111] hover-link line-animation">
+                                Flash drives
+                            </a>
+                        </li>
+                        <li class="text-[#111]">
+                            <a href="#" class="text-lg font-500 text-[#111] hover-link line-animation">
+                                Umbrella
+                            </a>
+                        </li>
+                        <li class="text-[#111]">
+                            <a href="#" class="text-lg font-500 text-[#111] hover-link line-animation">
+                                Pens
+                            </a>
+                        </li>
+                        <li class="text-[#111]">
+                            <a href="selectedItem.html" class="text-lg font-500 text-[#111] hover-link line-animation">
+                                Promotional souvenirs
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="md:w-[170px]">
+                    <ul class="flex flex-col space-y-[12px]">
+                        <li class="uk-invisible">
+                            <h3 class="heading-third text-[#111] sm:mb-[6px]" style="font-weight: 600;">something</h3>
+                        </li>
+                        <li class="text-[#111]">
+                            <a href="#" class="text-lg font-500 text-[#111] hover-link line-animation">
+                                Office souvenirs
+                            </a>
+                        </li>
+                        <li class="text-[#111]">
+                            <a href="#" class="text-lg font-500 text-[#111] hover-link line-animation">
+                                Bags and folders
+                            </a>
+                        </li>
+                        <li class="text-[#111]">
+                            <a href="#" class="text-lg font-500 text-[#111] hover-link line-animation">
+                                Textile
+                            </a>
+                        </li>
+                        <li class="text-[#111]">
+                            <a href="#" class="text-lg font-500 text-[#111] hover-link line-animation">
+                                Tableware
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="border-b-2 border-[#EFEFEF]">
+            <div class="py-[30px] uk-flex-wrap uk-flex-middle uk-flex-between@s uk-flex-center" uk-grid>
+                <div class="uk-width-1-1 uk-width-auto@m uk-flex uk-flex-center uk-flex-left@s">
+                    <div class="uk-text-center uk-text-left@s">
+                        <p class="text-[#111] text-lg">Phone:</p>
+                        <ul class="uk-grid-small uk-flex-middle uk-flex-center mt-[12px] uk-flex-wrap" uk-grid>
+                            <li class="text-[#111]">
+                                <a href="#" class="hover-link text-lg font-500 text-[#111]">
+                                    +998 78 129 00 66
+                                </a>
+                            </li>
+                            <li class="text-[#111]">
+                                <a href="#" class="hover-link text-lg font-500 text-[#111]">
+                                    +998 78 129 00 66
+                                </a>
+                            </li>
+                            <li class="text-[#111]">
+                                <a href="#" class="hover-link text-lg font-500 text-[#111]">
+                                    +998 78 129 00 66
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="uk-text-center uk-text-left@s">
+                    <p class="text-[#111] text-lg">Social networks:</p>
+                    <ul class="uk-grid-small uk-flex-middle mt-[12px]" uk-grid>
+                        <li class="text-[#111]">
+                            <a href="#" class="group hover-link w-[36px] h-[36px] rounded-full flex items-center justify-center" style="border: 1.5px solid rgba(17, 17, 17, 0.12);">
+                                <img class="group-hover:scale-[1.1] duration-300" src="../assets/img/svg/telegram.svg" alt="telegram">
+                            </a>
+                        </li>
+                        <li class="text-[#111]">
+                            <a href="#" class="group hover-link w-[36px] h-[36px] rounded-full flex items-center justify-center" style="border: 1.5px solid rgba(17, 17, 17, 0.12);">
+                                <img class="group-hover:scale-[1.1] duration-300" src="../assets/img/svg/instagram.svg" alt="instagram">
+                            </a>
+                        </li>
+                        <li class="text-[#111]">
+                            <a href="#" class="group hover-link w-[36px] h-[36px] rounded-full flex items-center justify-center" style="border: 1.5px solid rgba(17, 17, 17, 0.12);">
+                                <img class="group-hover:scale-[1.1] duration-300" src="../assets/img/svg/facebook.svg" alt="facebook">
+                            </a>
+                        </li>
+                        <li class="text-[#111]">
+                            <a href="#" class="group hover-link w-[36px] h-[36px] rounded-full flex items-center justify-center" style="border: 1.5px solid rgba(17, 17, 17, 0.12);">
+                                <img class="group-hover:scale-[1.1] duration-300" src="../assets/img/svg/twiiter.svg" alt="twitter">
+                            </a>
+                        </li>
+                        <li class="text-[#111]">
+                            <a href="#" class="group hover-link w-[36px] h-[36px] rounded-full flex items-center justify-center" style="border: 1.5px solid rgba(17, 17, 17, 0.12);">
+                                <img class="group-hover:scale-[1.1] duration-300" src="../assets/img/svg/youtube.svg" alt="youtibe">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="uk-flex-wrap uk-flex-middle uk-flex-between py-[18px] text-[#111] uk-text-center uk-text-left@m uk-grid-small" uk-grid>
+                <p class="text-[#111] uk-width-1-2@m">
+                    © Dekos, 2015-2021. All rights reserved. Copying information from the site is prohibited.
+                </p>
+                <div class="uk-width-1-1 uk-width-auto@m flex justify-center">
+                    <a href="#" class="flex hover-link">
+                        <img class="h-[18px] mt-[3px]" src="../assets/img/svg/map.svg" alt="map">
+                        <p class="text-[#111] ml-[6px]">
+                            Tashkent, Mirabad district, Mirabad 41/4
+                        </p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+  
+  <div id="overlay" class="uk-position-fixed uk-width-1-1 uk-height-1-1 uk-position-top-left uk-flex uk-flex-center uk-flex-middle" style="background-color: #fff !important; z-index: 10001;">
+    <div id="loader" class="w-full h-full">
+      <div class="bg-[#fff] w-full h-full flex items-center flex-col justify-center">
+        <img class="w-[100px] sm:w-[220px] mb-[30px]" src="../assets/img/logo/dekos.svg" alt="Dekos">
+        <h1 class="loader-title font-600 tracking-[1px] text-[#111] font-gilroy">Loading</h1>
+      </div>
+    </div>
+  </div>
+  
+  <script src="../assets/js/uikit-icons.min.js"></script>
+  <script src="../assets/js/uikit.min.js"></script>
+  <script src="../assets/js/main.js"></script>
+  
+</body>
+</html>
