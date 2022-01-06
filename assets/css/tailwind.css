@@ -786,16 +786,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 54px;
 }
 
-.w-\[175px\] {
-  width: 175px;
-}
-
 .w-\[30px\] {
   width: 30px;
-}
-
-.w-\[50\%\] {
-  width: 50%;
 }
 
 .max-w-\[200px\] {
@@ -1013,18 +1005,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 20px;
 }
 
-.p-\[16px\] {
-  padding: 16px;
-}
-
-.p-\[14px\] {
-  padding: 14px;
-}
-
-.p-\[12px\] {
-  padding: 12px;
-}
-
 .py-\[20px\] {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -1100,17 +1080,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 5px;
 }
 
-.px-\[14px\] {
-  padding-left: 14px;
-  padding-right: 14px;
-}
-
 .pl-\[10px\] {
   padding-left: 10px;
 }
 
-.pl-\[25px\] {
-  padding-left: 25px;
+.pl-\[16px\] {
+  padding-left: 16px;
 }
 
 .pt-\[50px\] {
@@ -1125,12 +1100,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-top: 30px;
 }
 
-.pl-\[16px\] {
-  padding-left: 16px;
-}
-
 .pr-\[50px\] {
   padding-right: 50px;
+}
+
+.pl-\[5px\] {
+  padding-left: 5px;
 }
 
 .pt-\[42px\] {
@@ -1139,14 +1114,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pr-\[40px\] {
   padding-right: 40px;
-}
-
-.pl-\[15px\] {
-  padding-left: 15px;
-}
-
-.pl-\[5px\] {
-  padding-left: 5px;
 }
 
 .text-lg {
@@ -1187,10 +1154,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .text-\[24px\] {
   font-size: 24px;
-}
-
-.text-\[17px\] {
-  font-size: 17px;
 }
 
 .tracking-\[1px\] {
@@ -1459,8 +1422,8 @@ Ensure the default browser behavior of the `hidden` attribute.
     width: 585px;
   }
 
-  .md\:w-\[370px\] {
-    width: 370px;
+  .md\:w-\[400px\] {
+    width: 400px;
   }
 
   .md\:w-\[500px\] {
@@ -1477,10 +1440,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:w-\[130px\] {
     width: 130px;
-  }
-
-  .md\:w-\[400px\] {
-    width: 400px;
   }
 
   .md\:p-\[30px\] {
