@@ -6,7 +6,7 @@
 }
 html::-webkit-scrollbar {
     width: 12px;
-    height: 7px;
+    height: 10px !important;
     margin-right: 2px;
 }
 html::-webkit-scrollbar-thumb {
@@ -546,6 +546,9 @@ html {
         }
         .catalog-categories-list-content-wrapper-img {
             max-width: 120px !important;
+        }
+        .footer-insivible-text {
+            display: none !important;
         }
     }
     @media (max-width: 600px) {
